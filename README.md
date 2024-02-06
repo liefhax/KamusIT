@@ -1,1 +1,2 @@
-# kamusit
+# KamusIT
+Tugas UAS bahasa asing
