@@ -27,1040 +27,3171 @@
     </div>
 
     <div class="navbar-extra">
-      <a href="#" id="search"><i data-feather="search"></i></a>
-      <a href="#" id="hmenu"><i data-feather="menu"></i></a>
+      <div class="search-box">
+        <button class="btn-search"><i data-feather="search"></i></button>
+        <input type="text" id='myInput' onkeyup='searchTable()' class="input-search" placeholder="Type to Search...">
+      </div>
     </div>
   </nav>
   <!-- navbar end -->
   <!-- kamus section start-->
-  <div class="row">
-    <div class="column">
-      <table>
+      <table id="myTable">
         <tr>
           <th>No</th>
           <th>English</th>
           <th>Indonesia</th>
         </tr>
         <tr>
-          <th>1 </th>
-          <th>Abort </th>
-          <th>Gugurkan</th>
+          <td>1 </td>
+          <td>Abort </td>
+          <td>Gugurkan</td>
         </tr>
         <tr>
-          <th>2 </th>
-          <th>Access </th>
-          <th>Akses</th>
+          <td>2 </td>
+          <td>Access </td>
+          <td>Akses</td>
         </tr>
         <tr>
-          <th>3 </th>
-          <th>Access Management </th>
-          <th>Manajemen Akses</th>
+          <td>3 </td>
+          <td>Access Management </td>
+          <td>Manajemen Akses</td>
         </tr>
         <tr>
-          <th>4 </th>
-          <th>Access Unit </th>
-          <th>Unit Akses</th>
+          <td>4 </td>
+          <td>Access Unit </td>
+          <td>Unit Akses</td>
         </tr>
         <tr>
-          <th>5 </th>
-          <th>Account </th>
-          <th>Akun; Rekening</th>
+          <td>5 </td>
+          <td>Account </td>
+          <td>Akun; Rekening</td>
         </tr>
         <tr>
-          <th>6 </th>
-          <th>Action Button </th>
-          <th>Tombol Tindak, Tombol Aksi</th>
+          <td>6 </td>
+          <td>Action Button </td>
+          <td>Tombol Tindak, Tombol Aksi</td>
         </tr>
         <tr>
-          <th>7 </th>
-          <th>Action Setting </th>
-          <th>Penataan Tindak, Penataan Aksi</th>
+          <td>7 </td>
+          <td>Action Setting </td>
+          <td>Penataan Tindak, Penataan Aksi</td>
         </tr>
         <tr>
-          <th>8 </th>
-          <th>Active Desktop </th>
-          <th>Destop Aktif</th>
+          <td>8 </td>
+          <td>Active Desktop </td>
+          <td>Destop Aktif</td>
         </tr>
         <tr>
-          <th>9 </th>
-          <th>Add-Ins </th>
-          <th>Tertambah</th>
+          <td>9 </td>
+          <td>Add-Ins </td>
+          <td>Tertambah</td>
         </tr>
         <tr>
-          <th>10 </th>
-          <th>Address </th>
-          <th>Alamat</th>
+          <td>10 </td>
+          <td>Address </td>
+          <td>Alamat</td>
         </tr>
         <tr>
-          <th>11 </th>
-          <th>Address Book </th>
-          <th>Buku Alamat</th>
+          <td>11 </td>
+          <td>Address Book </td>
+          <td>Buku Alamat</td>
         </tr>
         <tr>
-          <th>12 </th>
-          <th>Administration </th>
-          <th>Administrasi</th>
+          <td>12 </td>
+          <td>Administration </td>
+          <td>Administrasi</td>
         </tr>
         <tr>
-          <th>13 </th>
-          <th>Administration Domain </th>
-          <th>Ranah Administrasi</th>
+          <td>13 </td>
+          <td>Administration Domain </td>
+          <td>Ranah Administrasi</td>
         </tr>
         <tr>
-          <th>14 </th>
-          <th>Advisory System </th>
-          <th>Sistem Penasihat</th>
+          <td>14 </td>
+          <td>Advisory System </td>
+          <td>Sistem Penasihat</td>
         </tr>
         <tr>
-          <th>15 </th>
-          <th>Affirmation </th>
-          <th>Penegasan</th>
+          <td>15 </td>
+          <td>Affirmation </td>
+          <td>Penegasan</td>
         </tr>
         <tr>
-          <th>16 </th>
-          <th>Agenda </th>
-          <th>Agenda</th>
+          <td>16 </td>
+          <td>Agenda </td>
+          <td>Agenda</td>
         </tr>
         <tr>
-          <th>17 </th>
-          <th>Algorithm </th>
-          <th>Algoritma</th>
+          <td>17 </td>
+          <td>Algorithm </td>
+          <td>Algoritma</td>
         </tr>
         <tr>
-          <th>18 </th>
-          <th>Alias </th>
-          <th>Alias</th>
+          <td>18 </td>
+          <td>Alias </td>
+          <td>Alias</td>
         </tr>
         <tr>
-          <th>19 </th>
-          <th>Align Left </th>
-          <th>Rata Kiri</th>
+          <td>19 </td>
+          <td>Align Left </td>
+          <td>Rata Kiri</td>
         </tr>
         <tr>
-          <th>20 </th>
-          <th>Align Right </th>
-          <th>Rata Kanan</th>
+          <td>20 </td>
+          <td>Align Right </td>
+          <td>Rata Kanan</td>
         </tr>
         <tr>
-          <th>21 </th>
-          <th>Alignment </th>
-          <th>Perataan</th>
+          <td>21 </td>
+          <td>Alignment </td>
+          <td>Perataan</td>
         </tr>
         <tr>
-          <th>22 </th>
-          <th>Alternate </th>
-          <th>Silih</th>
+          <td>22 </td>
+          <td>Alternate </td>
+          <td>Silih</td>
         </tr>
         <tr>
-          <th>23 </th>
-          <th>Alternate Recipient </th>
-          <th>Penerima Pilihan</th>
+          <td>23 </td>
+          <td>Alternate Recipient </td>
+          <td>Penerima Pilihan</td>
         </tr>
         <tr>
-          <th>24 </th>
-          <th>Animation </th>
-          <th>Animasi</th>
+          <td>24 </td>
+          <td>Animation </td>
+          <td>Animasi</td>
         </tr>
         <tr>
-          <th>25 </th>
-          <th>Anonymous Remailer </th>
-          <th>Penyurat-Balik Anonim</th>
+          <td>25 </td>
+          <td>Anonymous Remailer </td>
+          <td>Penyurat-Balik Anonim</td>
         </tr>
         <tr>
-          <th>26 </th>
-          <th>Append </th>
-          <th>Bubuh</th>
+          <td>26 </td>
+          <td>Append </td>
+          <td>Bubuh</td>
         </tr>
         <tr>
-          <th>27 </th>
-          <th>Application </th>
-          <th>Aplikasi</th>
+          <td>27 </td>
+          <td>Application </td>
+          <td>Aplikasi</td>
         </tr>
         <tr>
-          <th>28 </th>
-          <th>Apply </th>
-          <th>Terapkan</th>
+          <td>28 </td>
+          <td>Apply </td>
+          <td>Terapkan</td>
         </tr>
         <tr>
-          <th>29 </th>
-          <th>Apply Design </th>
-          <th>Desain Terapan</th>
+          <td>29 </td>
+          <td>Apply Design </td>
+          <td>Desain Terapan</td>
         </tr>
         <tr>
-          <th>30 </th>
-          <th>Arrange </th>
-          <th>Susun</th>
+          <td>30 </td>
+          <td>Arrange </td>
+          <td>Susun</td>
         </tr>
         <tr>
-          <th>31 </th>
-          <th>Array </th>
-          <th>Larik</th>
+          <td>31 </td>
+          <td>Array </td>
+          <td>Larik</td>
         </tr>
         <tr>
-          <th>32 </th>
-          <th>Artificial Intelligence </th>
-          <th>Kecerdasan Buatan, Intelegensi Buatan</th>
+          <td>32 </td>
+          <td>Artificial Intelligence </td>
+          <td>Kecerdasan Buatan, Intelegensi Buatan</td>
         </tr>
         <tr>
-          <th>33 </th>
-          <th>Ascending </th>
-          <th>Menanjak, Urut Naik</th>
+          <td>33 </td>
+          <td>Ascending </td>
+          <td>Menanjak, Urut Naik</td>
         </tr>
         <tr>
-          <th>34 </th>
-          <th>Attribute </th>
-          <th>Atribut</th>
+          <td>34 </td>
+          <td>Attribute </td>
+          <td>Atribut</td>
         </tr>
         <tr>
-          <th>35 </th>
-          <th>Auto Clip Art </th>
-          <th>Gambar Klip Otomatis</th>
+          <td>35 </td>
+          <td>Auto Clip Art </td>
+          <td>Gambar Klip Otomatis</td>
         </tr>
         <tr>
-          <th>36 </th>
-          <th>Auto-Correct </th>
-          <th>Pembetulan Otomatis, Otokoreksi</th>
+          <td>36 </td>
+          <td>Auto-Correct </td>
+          <td>Pembetulan Otomatis, Otokoreksi</td>
         </tr>
         <tr>
-          <th>37 </th>
-          <th>Auto-Forward </th>
-          <th>Maju Otomatis</th>
+          <td>37 </td>
+          <td>Auto-Forward </td>
+          <td>Maju Otomatis</td>
         </tr>
         <tr>
-          <th>38 </th>
-          <th>Auto-Replay </th>
-          <th>Putar Ulang Otomatis</th>
+          <td>38 </td>
+          <td>Auto-Replay </td>
+          <td>Putar Ulang Otomatis</td>
         </tr>
         <tr>
-          <th>39 </th>
-          <th>Auto-Reply </th>
-          <th>Balasan Otomatis</th>
+          <td>39 </td>
+          <td>Auto-Reply </td>
+          <td>Balasan Otomatis</td>
         </tr>
         <tr>
-          <th>40 </th>
-          <th>Autofit </th>
-          <th>Menyesuaikan Otomatis</th>
+          <td>40 </td>
+          <td>Autofit </td>
+          <td>Menyesuaikan Otomatis</td>
         </tr>
         <tr>
-          <th>41 </th>
-          <th>Autoformat </th>
-          <th>Format Otomatis, Otoformat</th>
+          <td>41 </td>
+          <td>Autoformat </td>
+          <td>Format Otomatis, Otoformat</td>
         </tr>
         <tr>
-          <th>42 </th>
-          <th>Automatic Learning </th>
-          <th>Pemelajaran Otomatis</th>
+          <td>42 </td>
+          <td>Automatic Learning </td>
+          <td>Pemelajaran Otomatis</td>
         </tr>
         <tr>
-          <th>43 </th>
-          <th>Autoshapes </th>
-          <th>Bentuk Otomatis</th>
+          <td>43 </td>
+          <td>Autoshapes </td>
+          <td>Bentuk Otomatis</td>
         </tr>
         <tr>
-          <th>44 </th>
-          <th>Autosum </th>
-          <th>Total Otomatis; Jumlah Otomatis</th>
+          <td>44 </td>
+          <td>Autosum </td>
+          <td>Total Otomatis; Jumlah Otomatis</td>
         </tr>
     <!-- B -->
         <tr>
-          <th>45 </th>
-          <th>Back </th>
-          <th>Balik; Belakang</th>
+          <td>45 </td>
+          <td>Back </td>
+          <td>Balik; Belakang</td>
         </tr>
         <tr>
-          <th>46 </th>
-          <th>Back Slash </th>
-          <th>Garis Miring Kiri</th>
+          <td>46 </td>
+          <td>Back Slash </td>
+          <td>Garis Miring Kiri</td>
         </tr>
         <tr>
-          <th>47 </th>
-          <th>Back Space </th>
-          <th>Spasi Mundur</th>
+          <td>47 </td>
+          <td>Back Space </td>
+          <td>Spasi Mundur</td>
         </tr>
         <tr>
-          <th>48 </th>
-          <th>Back Up </th>
-          <th>(Rekam) Cadangan</th>
+          <td>48 </td>
+          <td>Back Up </td>
+          <td>(Rekam) Cadangan</td>
         </tr>
         <tr>
-          <th>49 </th>
-          <th>Background </th>
-          <th>Latar Belakang</th>
+          <td>49 </td>
+          <td>Background </td>
+          <td>Latar Belakang</td>
         </tr>
         <tr>
-          <th>50 </th>
-          <th>Backtracking </th>
-          <th>Lacak Balik</th>
+          <td>50 </td>
+          <td>Backtracking </td>
+          <td>Lacak Balik</td>
         </tr>
         <tr>
-          <th>51 </th>
-          <th>Backward Chaining </th>
-          <th>Perantaian Balik</th>
+          <td>51 </td>
+          <td>Backward Chaining </td>
+          <td>Perantaian Balik</td>
         </tr>
         <tr>
-          <th>52 </th>
-          <th>Band </th>
-          <th>Pita</th>
+          <td>52 </td>
+          <td>Band </td>
+          <td>Pita</td>
         </tr>
         <tr>
-          <th>53 </th>
-          <th>Bandwidth </th>
-          <th>Lebar Pita</th>
+          <td>53 </td>
+          <td>Bandwidth </td>
+          <td>Lebar Pita</td>
         </tr>
         <tr>
-          <th>54 </th>
-          <th>Bar </th>
-          <th>Batang</th>
+          <td>54 </td>
+          <td>Bar </td>
+          <td>Batang</td>
         </tr>
         <tr>
-          <th>55 </th>
-          <th>Bar-Code </th>
-          <th>Kode Batang</th>
+          <td>55 </td>
+          <td>Bar-Code </td>
+          <td>Kode Batang</td>
         </tr>
         <tr>
-          <th>56 </th>
-          <th>Bar-Code Reader </th>
-          <th>Pembaca Kode Batang</th>
+          <td>56 </td>
+          <td>Bar-Code Reader </td>
+          <td>Pembaca Kode Batang</td>
         </tr>
         <tr>
-          <th>57 </th>
-          <th>Bar-Code Scanner </th>
-          <th>Pemindai Kode Batang</th>
+          <td>57 </td>
+          <td>Bar-Code Scanner </td>
+          <td>Pemindai Kode Batang</td>
         </tr>
         <tr>
-          <th>58 </th>
-          <th>Base </th>
-          <th>Basis</th>
+          <td>58 </td>
+          <td>Base </td>
+          <td>Basis</td>
         </tr>
         <tr>
-          <th>59 </th>
-          <th>Batch </th>
-          <th>Tumpak</th>
+          <td>59 </td>
+          <td>Batch </td>
+          <td>Tumpak</td>
         </tr>
         <tr>
-          <th>60 </th>
-          <th>Best-First Search </th>
-          <th>Telusur Pertama Terbaik</th>
+          <td>60 </td>
+          <td>Best-First Search </td>
+          <td>Telusur Pertama Terbaik</td>
         </tr>
         <tr>
-          <th>61 </th>
-          <th>Binary </th>
-          <th>Biner</th>
+          <td>61 </td>
+          <td>Binary </td>
+          <td>Biner</td>
         </tr>
         <tr>
-          <th>62 </th>
-          <th>Bit </th>
-          <th>Bit</th>
+          <td>62 </td>
+          <td>Bit </td>
+          <td>Bit</td>
         </tr>
         <tr>
-          <th>63 </th>
-          <th>Bit Map </th>
-          <th>Peta Bit</th>
+          <td>63 </td>
+          <td>Bit Map </td>
+          <td>Peta Bit</td>
         </tr>
         <tr>
-          <th>64 </th>
-          <th>Blackboard Model </th>
-          <th>Model Papan Tulis</th>
+          <td>64 </td>
+          <td>Blackboard Model </td>
+          <td>Model Papan Tulis</td>
         </tr>
         <tr>
-          <th>65 </th>
-          <th>Blind Copy Recipient </th>
-          <th>Penerima Kopi Buntu; Penerima Salin Buntu</th>
+          <td>65 </td>
+          <td>Blind Copy Recipient </td>
+          <td>Penerima Kopi Buntu; Penerima Salin Buntu</td>
         </tr>
         <tr>
-          <th>66 </th>
-          <th>Body </th>
-          <th>Bodi; Badan</th>
+          <td>66 </td>
+          <td>Body </td>
+          <td>Bodi; Badan</td>
         </tr>
         <tr>
-          <th>67 </th>
-          <th>Body Text </th>
-          <th>Teks Tubuh</th>
+          <td>67 </td>
+          <td>Body Text </td>
+          <td>Teks Tubuh</td>
         </tr>
         <tr>
-          <th>68 </th>
-          <th>Bold </th>
-          <th>Tebal</th>
+          <td>68 </td>
+          <td>Bold </td>
+          <td>Tebal</td>
         </tr>
         <tr>
-          <th>69 </th>
-          <th>Border </th>
-          <th>Batas</th>
+          <td>69 </td>
+          <td>Border </td>
+          <td>Batas</td>
         </tr>
         <tr>
-          <th>70 </th>
-          <th>Bps </th>
-          <th>Bps</th>
+          <td>70 </td>
+          <td>Bps </td>
+          <td>Bps</td>
         </tr>
         <tr>
-          <th>71 </th>
-          <th>Breadth-First Search </th>
-          <th>Telusur Pertama Lebar</th>
+          <td>71 </td>
+          <td>Breadth-First Search </td>
+          <td>Telusur Pertama Lebar</td>
         </tr>
         <tr>
-          <th>72 </th>
-          <th>Break </th>
-          <th>Putus</th>
+          <td>72 </td>
+          <td>Break </td>
+          <td>Putus</td>
         </tr>
         <tr>
-          <th>73 </th>
-          <th>Broadcast Mail </th>
-          <th>Surat Siaran</th>
+          <td>73 </td>
+          <td>Broadcast Mail </td>
+          <td>Surat Siaran</td>
         </tr>
         <tr>
-          <th>74 </th>
-          <th>Broadcast Videography </th>
-          <th>Videografi Siaran</th>
+          <td>74 </td>
+          <td>Broadcast Videography </td>
+          <td>Videografi Siaran</td>
         </tr>
         <tr>
-          <th>75 </th>
-          <th>Browse </th>
-          <th>Ramban; Jelajah</th>
+          <td>75 </td>
+          <td>Browse </td>
+          <td>Ramban; Jelajah</td>
         </tr>
         <tr>
-          <th>76 </th>
-          <th>Browsers </th>
-          <th>Peramban; Penjelajah</th>
+          <td>76 </td>
+          <td>Browsers </td>
+          <td>Peramban; Penjelajah</td>
         </tr>
         <tr>
-          <th>77 </th>
-          <th>Buffer </th>
-          <th>Penyangga</th>
+          <td>77 </td>
+          <td>Buffer </td>
+          <td>Penyangga</td>
         </tr>
         <tr>
-          <th>78 </th>
-          <th>Bug </th>
-          <th>Kutu</th>
+          <td>78 </td>
+          <td>Bug </td>
+          <td>Kutu</td>
         </tr>
         <tr>
-          <th>79 </th>
-          <th>Bullet </th>
-          <th>Bulet</th>
+          <td>79 </td>
+          <td>Bullet </td>
+          <td>Bulet</td>
         </tr>
         <tr>
-          <th>80 </th>
-          <th>Button </th>
-          <th>Tombol</th>
+          <td>80 </td>
+          <td>Button </td>
+          <td>Tombol</td>
         </tr>
         <tr>
-          <th>81 </th>
-          <th>Byte </th>
-          <th>Bita</th>
+          <td>81 </td>
+          <td>Byte </td>
+          <td>Bita</td>
         </tr>
         <!-- C -->
         <tr>
-          <th>82 </th>
-          <th>Cache Memory </th>
-          <th>Memori Tembolok, Memori Singgahan</th>
+          <td>82 </td>
+          <td>Cache Memory </td>
+          <td>Memori Tembolok, Memori Singgahan</td>
         </tr>
         <tr>
-          <th>83 </th>
-          <th>Cancel </th>
-          <th>Batal</th>
+          <td>83 </td>
+          <td>Cancel </td>
+          <td>Batal</td>
         </tr>
         <tr>
-          <th>84 </th>
-          <th>Capacity </th>
-          <th>Kapasitas</th>
+          <td>84 </td>
+          <td>Capacity </td>
+          <td>Kapasitas</td>
         </tr>
         <tr>
-          <th>85 </th>
-          <th>Capslock </th>
-          <th>Kancing Kapital</th>
+          <td>85 </td>
+          <td>Capslock </td>
+          <td>Kancing Kapital</td>
         </tr>
         <tr>
-          <th>86 </th>
-          <th>Caption </th>
-          <th>Takarir</th>
+          <td>86 </td>
+          <td>Caption </td>
+          <td>Takarir</td>
         </tr>
         <tr>
-          <th>87 </th>
-          <th>Card </th>
-          <th>Kartu</th>
+          <td>87 </td>
+          <td>Card </td>
+          <td>Kartu</td>
         </tr>
         <tr>
-          <th>88 </th>
-          <th>Cartridge </th>
-          <th>Kartrid, Selongsong, Patrun</th>
+          <td>88 </td>
+          <td>Cartridge </td>
+          <td>Kartrid, Selongsong, Patrun</td>
         </tr>
         <tr>
-          <th>89 </th>
-          <th>Cartridge Disk </th>
-          <th>Disket Kartu</th>
+          <td>89 </td>
+          <td>Cartridge Disk </td>
+          <td>Disket Kartu</td>
         </tr>
         <tr>
-          <th>90 </th>
-          <th>Cascade </th>
-          <th>Riam</th>
+          <td>90 </td>
+          <td>Cascade </td>
+          <td>Riam</td>
         </tr>
         <tr>
-          <th>91 </th>
-          <th>Cell </th>
-          <th>Sel</th>
+          <td>91 </td>
+          <td>Cell </td>
+          <td>Sel</td>
         </tr>
         <tr>
-          <th>92 </th>
-          <th>Center </th>
-          <th>Tengah</th>
+          <td>92 </td>
+          <td>Center </td>
+          <td>Tengah</td>
         </tr>
         <tr>
-          <th>93 </th>
-          <th>Central Processing Unit (Cpu) </th>
-          <th>Unit Pengolah Pusat (Upp)</th>
+          <td>93 </td>
+          <td>Central Processing Unit (Cpu) </td>
+          <td>Unit Pengolah Pusat (Upp)</td>
         </tr>
         <tr>
-          <th>94 </th>
-          <th>Change Case </th>
-          <th>Ubah Karakter</th>
+          <td>94 </td>
+          <td>Change Case </td>
+          <td>Ubah Karakter</td>
         </tr>
         <tr>
-          <th>95 </th>
-          <th>Channel </th>
-          <th>Saluran, Kanal</th>
+          <td>95 </td>
+          <td>Channel </td>
+          <td>Saluran, Kanal</td>
         </tr>
         <tr>
-          <th>96 </th>
-          <th>Character </th>
-          <th>Aksara; Karakter</th>
+          <td>96 </td>
+          <td>Character </td>
+          <td>Aksara; Karakter</td>
         </tr>
         <tr>
-          <th>97 </th>
-          <th>Chart </th>
-          <th>Bagan</th>
+          <td>97 </td>
+          <td>Chart </td>
+          <td>Bagan</td>
         </tr>
         <tr>
-          <th>98 </th>
-          <th>Chatting </th>
-          <th>Rumpi</th>
+          <td>98 </td>
+          <td>Chatting </td>
+          <td>Rumpi</td>
         </tr>
         <tr>
-          <th>99 </th>
-          <th>Clear </th>
-          <th>Bersih; Bersihkan</th>
+          <td>99 </td>
+          <td>Clear </td>
+          <td>Bersih; Bersihkan</td>
         </tr>
         <tr>
-          <th>100 </th>
-          <th>Click </th>
-          <th>Klik</th>
+          <td>100 </td>
+          <td>Click </td>
+          <td>Klik</td>
         </tr>
-      </table>
-    </div>
-    <div class="column">
-      <table>
+
         <tr>
-          <th>No</th>
-          <th>English</th>
-          <th>Indonesia</th>
+          <td>101 </td>
+          <td>Client </td>
+          <td>Klien</td>
         </tr>
         <tr>
-          <th>101 </th>
-          <th>Client </th>
-          <th>Klien</th>
+          <td>102 </td>
+          <td>Close </td>
+          <td>Tutup</td>
         </tr>
         <tr>
-          <th>102 </th>
-          <th>Close </th>
-          <th>Tutup</th>
+          <td>103 </td>
+          <td>Closed File </td>
+          <td>Berkas Tertutup</td>
         </tr>
         <tr>
-          <th>103 </th>
-          <th>Closed File </th>
-          <th>Berkas Tertutup</th>
+          <td>104 </td>
+          <td>Cluster </td>
+          <td>Gugus; Rumpun</td>
         </tr>
         <tr>
-          <th>104 </th>
-          <th>Cluster </th>
-          <th>Gugus; Rumpun</th>
+          <td>105 </td>
+          <td>Coding </td>
+          <td>Pengodean</td>
         </tr>
         <tr>
-          <th>105 </th>
-          <th>Coding </th>
-          <th>Pengodean</th>
+          <td>106 </td>
+          <td>Color </td>
+          <td>Warna</td>
         </tr>
         <tr>
-          <th>106 </th>
-          <th>Color </th>
-          <th>Warna</th>
+          <td>107 </td>
+          <td>Color Monitor </td>
+          <td>Monitor Warna</td>
         </tr>
         <tr>
-          <th>107 </th>
-          <th>Color Monitor </th>
-          <th>Monitor Warna</th>
+          <td>108 </td>
+          <td>Column </td>
+          <td>Kolom</td>
         </tr>
         <tr>
-          <th>108 </th>
-          <th>Column </th>
-          <th>Kolom</th>
+          <td>109 </td>
+          <td>Comments </td>
+          <td>Komentar</td>
         </tr>
         <tr>
-          <th>109 </th>
-          <th>Comments </th>
-          <th>Komentar</th>
+          <td>110 </td>
+          <td>Common Name </td>
+          <td>Nama Umum</td>
         </tr>
         <tr>
-          <th>110 </th>
-          <th>Common Name </th>
-          <th>Nama Umum</th>
+          <td>111 </td>
+          <td>Computer </td>
+          <td>Komputer</td>
         </tr>
         <tr>
-          <th>111 </th>
-          <th>Computer </th>
-          <th>Komputer</th>
+          <td>112 </td>
+          <td>Computer Aided </td>
+          <td>Berbantuan Komputer</td>
         </tr>
         <tr>
-          <th>112 </th>
-          <th>Computer Aided </th>
-          <th>Berbantuan Komputer</th>
+          <td>113 </td>
+          <td>Computer Aided Design (Cad) </td>
+          <td>Desain Berbantuan Komputer (Dbk)</td>
         </tr>
         <tr>
-          <th>113 </th>
-          <th>Computer Aided Design (Cad) </th>
-          <th>Desain Berbantuan Komputer (Dbk)</th>
+          <td>114 </td>
+          <td>Computer Aided Instruction </td>
+          <td>Instruksi Berbantuan Komputer</td>
         </tr>
         <tr>
-          <th>114 </th>
-          <th>Computer Aided Instruction </th>
-          <th>Instruksi Berbantuan Komputer</th>
+          <td>115 </td>
+          <td>Computer Aided Manufacturing </td>
+          <td>Pemanufakturan Berbantuan Komputer</td>
         </tr>
         <tr>
-          <th>115 </th>
-          <th>Computer Aided Manufacturing </th>
-          <th>Pemanufakturan Berbantuan Komputer</th>
+          <td>116 </td>
+          <td>Computer Conference </td>
+          <td>Konferensi Komputer</td>
         </tr>
         <tr>
-          <th>116 </th>
-          <th>Computer Conference </th>
-          <th>Konferensi Komputer</th>
+          <td>117 </td>
+          <td>Computer Memory </td>
+          <td>Memori Komputer</td>
         </tr>
         <tr>
-          <th>117 </th>
-          <th>Computer Memory </th>
-          <th>Memori Komputer</th>
+          <td>118 </td>
+          <td>Computer Network </td>
+          <td>Jaringan Komputer</td>
         </tr>
         <tr>
-          <th>118 </th>
-          <th>Computer Network </th>
-          <th>Jaringan Komputer</th>
+          <td>119 </td>
+          <td>Conclusion Part </td>
+          <td>Bagian Kesimpulan</td>
         </tr>
         <tr>
-          <th>119 </th>
-          <th>Conclusion Part </th>
-          <th>Bagian Kesimpulan</th>
+          <td>120 </td>
+          <td>Content </td>
+          <td>Isi</td>
         </tr>
         <tr>
-          <th>120 </th>
-          <th>Content </th>
-          <th>Isi</th>
+          <td>121 </td>
+          <td>Content Type </td>
+          <td>Tipe Isi</td>
         </tr>
         <tr>
-          <th>121 </th>
-          <th>Content Type </th>
-          <th>Tipe Isi</th>
+          <td>122 </td>
+          <td>Control(Ctrl) </td>
+          <td>Kontrol (Ktrl), Kendali</td>
         </tr>
         <tr>
-          <th>122 </th>
-          <th>Control(Ctrl) </th>
-          <th>Kontrol (Ktrl), Kendali</th>
+          <td>123 </td>
+          <td>Convert </td>
+          <td>Ubah</td>
         </tr>
         <tr>
-          <th>123 </th>
-          <th>Convert </th>
-          <th>Ubah</th>
+          <td>124 </td>
+          <td>Copy </td>
+          <td>Salinan; Kopi</td>
         </tr>
         <tr>
-          <th>124 </th>
-          <th>Copy </th>
-          <th>Salinan; Kopi</th>
+          <td>125 </td>
+          <td>Copy Recipient </td>
+          <td>Penerima Salinan</td>
         </tr>
         <tr>
-          <th>125 </th>
-          <th>Copy Recipient </th>
-          <th>Penerima Salinan</th>
+          <td>126 </td>
+          <td>Count </td>
+          <td>Cacah</td>
         </tr>
         <tr>
-          <th>126 </th>
-          <th>Count </th>
-          <th>Cacah</th>
+          <td>127 </td>
+          <td>Country Name </td>
+          <td>Nama Negara</td>
         </tr>
         <tr>
-          <th>127 </th>
-          <th>Country Name </th>
-          <th>Nama Negara</th>
+          <td>128 </td>
+          <td>Crack </td>
+          <td>Rengkah</td>
         </tr>
         <tr>
-          <th>128 </th>
-          <th>Crack </th>
-          <th>Rengkah</th>
+          <td>129 </td>
+          <td>Cracker </td>
+          <td>Perengah</td>
         </tr>
         <tr>
-          <th>129 </th>
-          <th>Cracker </th>
-          <th>Perengah</th>
+          <td>130 </td>
+          <td>Create New </td>
+          <td>Buat Baru</td>
         </tr>
         <tr>
-          <th>130 </th>
-          <th>Create New </th>
-          <th>Buat Baru</th>
+          <td>131 </td>
+          <td>Cursor </td>
+          <td>Kursor</td>
         </tr>
         <tr>
-          <th>131 </th>
-          <th>Cursor </th>
-          <th>Kursor</th>
+          <td>132 </td>
+          <td>Custom Views </td>
+          <td>Tilik Pesanan, Tilik Suai</td>
         </tr>
         <tr>
-          <th>132 </th>
-          <th>Custom Views </th>
-          <th>Tilik Pesanan, Tilik Suai</th>
+          <td>133 </td>
+          <td>Customizes </td>
+          <td>Sesuai</td>
         </tr>
         <tr>
-          <th>133 </th>
-          <th>Customizes </th>
-          <th>Sesuai</th>
+          <td>134 </td>
+          <td>Cut </td>
+          <td>Potong</td>
         </tr>
         <tr>
-          <th>134 </th>
-          <th>Cut </th>
-          <th>Potong</th>
-        </tr>
-        <tr>
-          <th>135 </th>
-          <th>Cut-Off </th>
-          <th>Putus</th>
+          <td>135 </td>
+          <td>Cut-Off </td>
+          <td>Putus</td>
         </tr>
     <!-- D -->
         <tr>
-          <th>136 </th>
-          <th>Daemon </th>
-          <th>Jurik</th>
+          <td>136 </td>
+          <td>Daemon </td>
+          <td>Jurik</td>
         </tr>
         <tr>
-          <th>137 </th>
-          <th>Data </th>
-          <th>Data</th>
+          <td>137 </td>
+          <td>Data </td>
+          <td>Data</td>
         </tr>
         <tr>
-          <th>138 </th>
-          <th>Data Analysis Display </th>
-          <th>Tampilan Analisis Data</th>
+          <td>138 </td>
+          <td>Data Analysis Display </td>
+          <td>Tampilan Analisis Data</td>
         </tr>
         <tr>
-          <th>139 </th>
-          <th>Data Anaysis </th>
-          <th>Analisis Data</th>
+          <td>139 </td>
+          <td>Data Anaysis </td>
+          <td>Analisis Data</td>
         </tr>
         <tr>
-          <th>140 </th>
-          <th>Data Bank </th>
-          <th>Bank Data</th>
+          <td>140 </td>
+          <td>Data Bank </td>
+          <td>Bank Data</td>
         </tr>
         <tr>
-          <th>141 </th>
-          <th>Data Interchange </th>
-          <th>Saling Tukar Data</th>
+          <td>141 </td>
+          <td>Data Interchange </td>
+          <td>Saling Tukar Data</td>
         </tr>
         <tr>
-          <th>142 </th>
-          <th>Data Logging </th>
-          <th>Pencatatan Data</th>
+          <td>142 </td>
+          <td>Data Logging </td>
+          <td>Pencatatan Data</td>
         </tr>
         <tr>
-          <th>143 </th>
-          <th>Data Processing </th>
-          <th>Pemrosesan Data, Pengolahan Data</th>
+          <td>143 </td>
+          <td>Data Processing </td>
+          <td>Pemrosesan Data, Pengolahan Data</td>
         </tr>
         <tr>
-          <th>144 </th>
-          <th>Data Processor </th>
-          <th>Pemroses Data</th>
+          <td>144 </td>
+          <td>Data Processor </td>
+          <td>Pemroses Data</td>
         </tr>
         <tr>
-          <th>145 </th>
-          <th>Database </th>
-          <th>Pangkalan Data, Basis Data</th>
+          <td>145 </td>
+          <td>Database </td>
+          <td>Pangkalan Data, Basis Data</td>
         </tr>
         <tr>
-          <th>146 </th>
-          <th>Datasheet </th>
-          <th>Lembar Data</th>
+          <td>146 </td>
+          <td>Datasheet </td>
+          <td>Lembar Data</td>
         </tr>
         <tr>
-          <th>147 </th>
-          <th>Date </th>
-          <th>Tanggal</th>
+          <td>147 </td>
+          <td>Date </td>
+          <td>Tanggal</td>
         </tr>
         <tr>
-          <th>148 </th>
-          <th>Debug </th>
-          <th>Awakutu</th>
+          <td>148 </td>
+          <td>Debug </td>
+          <td>Awakutu</td>
         </tr>
         <tr>
-          <th>149 </th>
-          <th>Decimal </th>
-          <th>Desimal</th>
+          <td>149 </td>
+          <td>Decimal </td>
+          <td>Desimal</td>
         </tr>
         <tr>
-          <th>150 </th>
-          <th>Declarative Knowledge </th>
-          <th>Pengetahuan Deklaratif</th>
+          <td>150 </td>
+          <td>Declarative Knowledge </td>
+          <td>Pengetahuan Deklaratif</td>
         </tr>
         <tr>
-          <th>151 </th>
-          <th>Decoding </th>
-          <th>Pengawasandian</th>
+          <td>151 </td>
+          <td>Decoding </td>
+          <td>Pengawasandian</td>
         </tr>
         <tr>
-          <th>152 </th>
-          <th>Decrease </th>
-          <th>Kurang; Susut</th>
+          <td>152 </td>
+          <td>Decrease </td>
+          <td>Kurang; Susut</td>
         </tr>
         <tr>
-          <th>153 </th>
-          <th>Deduction </th>
-          <th>Deduksi</th>
+          <td>153 </td>
+          <td>Deduction </td>
+          <td>Deduksi</td>
         </tr>
         <tr>
-          <th>154 </th>
-          <th>Deductive Inference </th>
-          <th>Inferensi Deduksi</th>
+          <td>154 </td>
+          <td>Deductive Inference </td>
+          <td>Inferensi Deduksi</td>
         </tr>
         <tr>
-          <th>155 </th>
-          <th>Deferred Delivery </th>
-          <th>Pengiriman Tertunda</th>
+          <td>155 </td>
+          <td>Deferred Delivery </td>
+          <td>Pengiriman Tertunda</td>
         </tr>
         <tr>
-          <th>156 </th>
-          <th>Delete </th>
-          <th>Hapus</th>
+          <td>156 </td>
+          <td>Delete </td>
+          <td>Hapus</td>
         </tr>
         <tr>
-          <th>157 </th>
-          <th>Delete Item </th>
-          <th>Butir Hapus</th>
+          <td>157 </td>
+          <td>Delete Item </td>
+          <td>Butir Hapus</td>
         </tr>
         <tr>
-          <th>158 </th>
-          <th>Delivery </th>
-          <th>Pengiriman</th>
+          <td>158 </td>
+          <td>Delivery </td>
+          <td>Pengiriman</td>
         </tr>
         <tr>
-          <th>159 </th>
-          <th>Delivery Notification </th>
-          <th>Pemberitahuan Pengiriman</th>
+          <td>159 </td>
+          <td>Delivery Notification </td>
+          <td>Pemberitahuan Pengiriman</td>
         </tr>
         <tr>
-          <th>160 </th>
-          <th>Depth-First Search </th>
-          <th>Telusur Pertama Kedalaman</th>
+          <td>160 </td>
+          <td>Depth-First Search </td>
+          <td>Telusur Pertama Kedalaman</td>
         </tr>
         <tr>
-          <th>161 </th>
-          <th>Descending </th>
-          <th>Menurun, Urut Turun</th>
+          <td>161 </td>
+          <td>Descending </td>
+          <td>Menurun, Urut Turun</td>
         </tr>
         <tr>
-          <th>162 </th>
-          <th>Design </th>
-          <th>Desain; Rancangan</th>
+          <td>162 </td>
+          <td>Design </td>
+          <td>Desain; Rancangan</td>
         </tr>
         <tr>
-          <th>163 </th>
-          <th>Desk Application </th>
-          <th>Aplikasi Meja</th>
+          <td>163 </td>
+          <td>Desk Application </td>
+          <td>Aplikasi Meja</td>
         </tr>
         <tr>
-          <th>164 </th>
-          <th>Digit </th>
-          <th>Digit</th>
+          <td>164 </td>
+          <td>Digit </td>
+          <td>Digit</td>
         </tr>
         <tr>
-          <th>165 </th>
-          <th>Digital </th>
-          <th>Digital</th>
+          <td>165 </td>
+          <td>Digital </td>
+          <td>Digital</td>
         </tr>
         <tr>
-          <th>166 </th>
-          <th>Digital Computer </th>
-          <th>Komputer Digital</th>
+          <td>166 </td>
+          <td>Digital Computer </td>
+          <td>Komputer Digital</td>
         </tr>
         <tr>
-          <th>167 </th>
-          <th>Direct Submission </th>
-          <th>Submisi Langsung</th>
+          <td>167 </td>
+          <td>Direct Submission </td>
+          <td>Submisi Langsung</td>
         </tr>
         <tr>
-          <th>168 </th>
-          <th>Direct User </th>
-          <th>Pengguna Langsung</th>
+          <td>168 </td>
+          <td>Direct User </td>
+          <td>Pengguna Langsung</td>
         </tr>
         <tr>
-          <th>169 </th>
-          <th>Directory </th>
-          <th>Direktori</th>
+          <td>169 </td>
+          <td>Directory </td>
+          <td>Direktori</td>
         </tr>
         <tr>
-          <th>170 </th>
-          <th>Directory Information </th>
-          <th>Informasi Direktori</th>
+          <td>170 </td>
+          <td>Directory Information </td>
+          <td>Informasi Direktori</td>
         </tr>
         <tr>
-          <th>171 </th>
-          <th>Directory Management </th>
-          <th>Manajemen Direktori</th>
+          <td>171 </td>
+          <td>Directory Management </td>
+          <td>Manajemen Direktori</td>
         </tr>
         <tr>
-          <th>172 </th>
-          <th>Directory Name </th>
-          <th>Nama Direktori</th>
+          <td>172 </td>
+          <td>Directory Name </td>
+          <td>Nama Direktori</td>
         </tr>
         <tr>
-          <th>173 </th>
-          <th>Directory System </th>
-          <th>Sistem Direktori</th>
+          <td>173 </td>
+          <td>Directory System </td>
+          <td>Sistem Direktori</td>
         </tr>
         <tr>
-          <th>174 </th>
-          <th>Directory System Agent </th>
-          <th>Agen Sistem Direktori</th>
+          <td>174 </td>
+          <td>Directory System Agent </td>
+          <td>Agen Sistem Direktori</td>
         </tr>
         <tr>
-          <th>175 </th>
-          <th>Directory User </th>
-          <th>Pengguna Direktori</th>
+          <td>175 </td>
+          <td>Directory User </td>
+          <td>Pengguna Direktori</td>
         </tr>
         <tr>
-          <th>176 </th>
-          <th>Directory User Agent </th>
-          <th>Agen Pengguna Direktori</th>
+          <td>176 </td>
+          <td>Directory User Agent </td>
+          <td>Agen Pengguna Direktori</td>
         </tr>
         <tr>
-          <th>177 </th>
-          <th>Disc </th>
-          <th>Disket; Cakram; Diska</th>
+          <td>177 </td>
+          <td>Disc </td>
+          <td>Disket; Cakram; Diska</td>
         </tr>
         <tr>
-          <th>178 </th>
-          <th>Disclosure Of Other </th>
-          <th>Penyingkapan Lain</th>
+          <td>178 </td>
+          <td>Disclosure Of Other </td>
+          <td>Penyingkapan Lain</td>
         </tr>
         <tr>
-          <th>179 </th>
-          <th>Disconnected Network Drive </th>
-          <th>Pemacu Jaringan Tak-Tersambung</th>
+          <td>179 </td>
+          <td>Disconnected Network Drive </td>
+          <td>Pemacu Jaringan Tak-Tersambung</td>
         </tr>
         <tr>
-          <th>180 </th>
-          <th>Discuss </th>
-          <th>Diskusi</th>
+          <td>180 </td>
+          <td>Discuss </td>
+          <td>Diskusi</td>
         </tr>
         <tr>
-          <th>181 </th>
-          <th>Disk Drive </th>
-          <th>Penggerak Disket; Penggerak Cakram</th>
+          <td>181 </td>
+          <td>Disk Drive </td>
+          <td>Penggerak Disket; Penggerak Cakram</td>
         </tr>
         <tr>
-          <th>182 </th>
-          <th>Disk Memory </th>
-          <th>Memori Disket; Memori Cakram</th>
+          <td>182 </td>
+          <td>Disk Memory </td>
+          <td>Memori Disket; Memori Cakram</td>
         </tr>
         <tr>
-          <th>183 </th>
-          <th>Diskette </th>
-          <th>Disket</th>
+          <td>183 </td>
+          <td>Diskette </td>
+          <td>Disket</td>
         </tr>
         <tr>
-          <th>184 </th>
-          <th>Display </th>
-          <th>Tayangan</th>
+          <td>184 </td>
+          <td>Display </td>
+          <td>Tayangan</td>
         </tr>
         <tr>
-          <th>185 </th>
-          <th>Display Station </th>
-          <th>Monitor Peraga</th>
+          <td>185 </td>
+          <td>Display Station </td>
+          <td>Monitor Peraga</td>
         </tr>
         <tr>
-          <th>186 </th>
-          <th>Distribution List </th>
-          <th>Senarai Distribusi</th>
+          <td>186 </td>
+          <td>Distribution List </td>
+          <td>Senarai Distribusi</td>
         </tr>
         <tr>
-          <th>187 </th>
-          <th>Document </th>
-          <th>Dokumen</th>
+          <td>187 </td>
+          <td>Document </td>
+          <td>Dokumen</td>
         </tr>
         <tr>
-          <th>188 </th>
-          <th>Document Delivery </th>
-          <th>Pengiriman Dokumen</th>
+          <td>188 </td>
+          <td>Document Delivery </td>
+          <td>Pengiriman Dokumen</td>
         </tr>
         <tr>
-          <th>189 </th>
-          <th>Document Interchange </th>
-          <th>Saling Tukar Dokumen</th>
+          <td>189 </td>
+          <td>Document Interchange </td>
+          <td>Saling Tukar Dokumen</td>
         </tr>
         <tr>
-          <th>190 </th>
-          <th>Domain </th>
-          <th>Ranah</th>
+          <td>190 </td>
+          <td>Domain </td>
+          <td>Ranah</td>
         </tr>
         <tr>
-          <th>191 </th>
-          <th>Domain Knowledge </th>
-          <th>Pengetahuan Ranah</th>
+          <td>191 </td>
+          <td>Domain Knowledge </td>
+          <td>Pengetahuan Ranah</td>
         </tr>
         <tr>
-          <th>192 </th>
-          <th>Domain Model </th>
-          <th>Model Ranah</th>
+          <td>192 </td>
+          <td>Domain Model </td>
+          <td>Model Ranah</td>
         </tr>
         <tr>
-          <th>193 </th>
-          <th>Domain Name Server </th>
-          <th>Server Nama Ranah; Peladen Nama Ranah</th>
+          <td>193 </td>
+          <td>Domain Name Server </td>
+          <td>Server Nama Ranah; Peladen Nama Ranah</td>
         </tr>
         <tr>
-          <th>194 </th>
-          <th>Down </th>
-          <th>Anjlok</th>
+          <td>194 </td>
+          <td>Down </td>
+          <td>Anjlok</td>
         </tr>
         <tr>
-          <th>195 </th>
-          <th>Download </th>
-          <th>Unduh</th>
+          <td>195 </td>
+          <td>Download </td>
+          <td>Unduh</td>
         </tr>
         <tr>
-          <th>196 </th>
-          <th>Drag </th>
-          <th>Seret</th>
+          <td>196 </td>
+          <td>Drag </td>
+          <td>Seret</td>
         </tr>
         <tr>
-          <th>197 </th>
-          <th>Draw </th>
-          <th>Gambar; Lukis</th>
+          <td>197 </td>
+          <td>Draw </td>
+          <td>Gambar; Lukis</td>
         </tr>
         <tr>
-          <th>198 </th>
-          <th>Draw Table </th>
-          <th>Buat Tabel</th>
+          <td>198 </td>
+          <td>Draw Table </td>
+          <td>Buat Tabel</td>
         </tr>
         <tr>
-          <th>199 </th>
-          <th>Drawing </th>
-          <th>Penggambaran</th>
+          <td>199 </td>
+          <td>Drawing </td>
+          <td>Penggambaran</td>
         </tr>
         <tr>
-          <th>200 </th>
-          <th>Drive </th>
-          <th>Penggerak</th>
+          <td>200 </td>
+          <td>Drive </td>
+          <td>Penggerak</td>
         </tr>
+
+      <tr>
+          <td>201 </td>
+          <td>Dummy </td>
+          <td>Tiruan</td>
+      </tr>
+      <tr>
+          <td>202 </td>
+          <td>Edit </td>
+          <td>Edit</td>
+      </tr>
+      <tr>
+          <td>203 </td>
+          <td>Electronic Data Proccessing </td>
+          <td>Pemrosesan Data Elektronik (Pde)(Edp)</td>
+      </tr>
+      <tr>
+          <td>204 </td>
+          <td>Electronic Archive </td>
+          <td>Arsip Elektronik</td>
+      </tr>
+      <tr>
+          <td>205 </td>
+          <td>Electronic Data </td>
+          <td>Data Elektronik</td>
+      </tr>
+      <tr>
+          <td>206 </td>
+          <td>Electronic Document </td>
+          <td>Dokumen Elektronik</td>
+      </tr>
+      <tr>
+          <td>207 </td>
+          <td>Electronic Mail </td>
+          <td>Surat Elektronik</td>
+      </tr>
+      <tr>
+          <td>208 </td>
+          <td>Electronic Mailbox </td>
+          <td>Kotak Surat Elektronik</td>
+      </tr>
+      <tr>
+          <td>209 </td>
+          <td>Electronic Messaging </td>
+          <td>Pemesanan Elektronik</td>
+      </tr>
+      <tr>
+          <td>210 </td>
+          <td>Emoticon </td>
+          <td>Ikon Emosi</td>
+      </tr>
+      <tr>
+          <td>211 </td>
+          <td>Encoded Information </td>
+          <td>Informasi Tersandi</td>
+      </tr>
+      <tr>
+          <td>212 </td>
+          <td>Encoding </td>
+          <td>Penyandian</td>
+      </tr>
+      <tr>
+          <td>213 </td>
+          <td>Encryption </td>
+          <td>Enkripsi</td>
+      </tr>
+      <tr>
+          <td>214 </td>
+          <td>End </td>
+          <td>Selesai; Tamat</td>
+      </tr>
+      <tr>
+          <td>215 </td>
+          <td>Enter </td>
+          <td>Enter</td>
+      </tr>
+      <tr>
+          <td>216 </td>
+          <td>Entry </td>
+          <td>Entri</td>
+      </tr>
+      <tr>
+          <td>217 </td>
+          <td>Envelope </td>
+          <td>Amplop</td>
+      </tr>
+      <tr>
+          <td>218 </td>
+          <td>Episode </td>
+          <td>Episode</td>
+      </tr>
+      <tr>
+          <td>219 </td>
+          <td>Erase </td>
+          <td>Hapus</td>
+      </tr>
+      <tr>
+          <td>220 </td>
+          <td>Eraser </td>
+          <td>Penghapus</td>
+      </tr>
+      <tr>
+          <td>221 </td>
+          <td>Error </td>
+          <td>Galat</td>
+      </tr>
+      <tr>
+          <td>222 </td>
+          <td>Esc(Ape) </td>
+          <td>Hindar; Keluar Balik</td>
+      </tr>
+      <tr>
+          <td>223 </td>
+          <td>Evaluation Function </td>
+          <td>Fungsi Evaluasi</td>
+      </tr>
+      <tr>
+          <td>224 </td>
+          <td>Exit </td>
+          <td>Keluar</td>
+      </tr>
+      <tr>
+          <td>225 </td>
+          <td>Expert System (Es) </td>
+          <td>Sistem Pakar (Sp)</td>
+      </tr>
+      <tr>
+          <td>226 </td>
+          <td>Expiration Date </td>
+          <td>Tanggal Ekspirasi</td>
+      </tr>
+      <tr>
+          <td>227 </td>
+          <td>Expiry Date Indication </td>
+          <td>Indikasi Tanggal Kedaluwarsa</td>
+      </tr>
+      <tr>
+          <td>228 </td>
+          <td>Explorer </td>
+          <td>Penjelajah</td>
+      </tr>
+      <tr>
+          <td>229 </td>
+          <td>Export </td>
+          <td>Ekspor</td>
+      </tr>
+      <tr>
+          <td>230 </td>
+          <td>Facsimile </td>
+          <td>Faksimile</td>
+      </tr>
+      <tr>
+          <td>231 </td>
+          <td>Facsimile Machine </td>
+          <td>Mesin Faksimile</td>
+      </tr>
+      <tr>
+          <td>232 </td>
+          <td>Fax </td>
+          <td>Faks</td>
+      </tr>
+      <tr>
+          <td>233 </td>
+          <td>Fax Board </td>
+          <td>Papan Faks</td>
+      </tr>
+      <tr>
+          <td>234 </td>
+          <td>Fax Machine </td>
+          <td>Mesin Faks</td>
+      </tr>
+      <tr>
+          <td>235 </td>
+          <td>Fax Modem </td>
+          <td>Modem Faks</td>
+      </tr>
+      <tr>
+          <td>236 </td>
+          <td>Feedback </td>
+          <td>Balikan; Umpan Balik</td>
+      </tr>
+      <tr>
+          <td>237 </td>
+          <td>Fetch </td>
+          <td>Jemput; Ambil</td>
+      </tr>
+      <tr>
+          <td>238 </td>
+          <td>Field </td>
+          <td>Ruas</td>
+      </tr>
+      <tr>
+          <td>239 </td>
+          <td>Field Length </td>
+          <td>Panjang Ruas</td>
+      </tr>
+      <tr>
+          <td>240 </td>
+          <td>File </td>
+          <td>Berkas</td>
+      </tr>
+      <tr>
+          <td>241 </td>
+          <td>File Name </td>
+          <td>Nama Berkas</td>
+      </tr>
+      <tr>
+          <td>242 </td>
+          <td>Filing </td>
+          <td>Pemberkasan</td>
+      </tr>
+      <tr>
+          <td>243 </td>
+          <td>Fill </td>
+          <td>Isi</td>
+      </tr>
+      <tr>
+          <td>244 </td>
+          <td>Fill Character </td>
+          <td>Isi Karakter</td>
+      </tr>
+      <tr>
+          <td>245 </td>
+          <td>Filter </td>
+          <td>Tapis; Filter</td>
+      </tr>
+      <tr>
+          <td>246 </td>
+          <td>Filtering </td>
+          <td>Penapisan</td>
+      </tr>
+      <tr>
+          <td>247 </td>
+          <td>Find </td>
+          <td>Cari; Temukan</td>
+      </tr>
+      <tr>
+          <td>248 </td>
+          <td>Firmware </td>
+          <td>Peranti Tegar, Perangkat Tegar</td>
+      </tr>
+      <tr>
+          <td>249 </td>
+          <td>Floppy Disk </td>
+          <td>Disket Liuk; Cakram Liuk</td>
+      </tr>
+      <tr>
+          <td>250 </td>
+          <td>Folder </td>
+          <td>Pelipat</td>
+      </tr>
+      <tr>
+          <td>251 </td>
+          <td>Font </td>
+          <td>Huruf; Fonta</td>
+      </tr>
+      <tr>
+          <td>252 </td>
+          <td>Font Size </td>
+          <td>Ukuran Huruf</td>
+      </tr>
+      <tr>
+          <td>253 </td>
+          <td>Footer </td>
+          <td>Kaki Halaman</td>
+      </tr>
+      <tr>
+          <td>254 </td>
+          <td>Foreground </td>
+          <td>Latar Depan</td>
+      </tr>
+      <tr>
+          <td>255 </td>
+          <td>Format </td>
+          <td>Format</td>
+      </tr>
+      <tr>
+          <td>256 </td>
+          <td>Format Painter </td>
+          <td>Pewarna Format</td>
+      </tr>
+      <tr>
+          <td>257 </td>
+          <td>Formula </td>
+          <td>Formula, Rumus</td>
+      </tr>
+      <tr>
+          <td>258 </td>
+          <td>Forward </td>
+          <td>Depan</td>
+      </tr>
+      <tr>
+          <td>259 </td>
+          <td>Forward Chaining </td>
+          <td>Perantaian Maju</td>
+      </tr>
+      <tr>
+          <td>260 </td>
+          <td>Frame </td>
+          <td>Bingkai</td>
+      </tr>
+      <tr>
+          <td>261 </td>
+          <td>Front-End </td>
+          <td>Ujung Depan</td>
+      </tr>
+      <tr>
+          <td>262 </td>
+          <td>Full Screen </td>
+          <td>Layar Penuh</td>
+      </tr>
+      <tr>
+          <td>263 </td>
+          <td>Gateway </td>
+          <td>Gerbang</td>
+      </tr>
+      <tr>
+          <td>264 </td>
+          <td>General </td>
+          <td>Umum</td>
+      </tr>
+      <tr>
+          <td>265 </td>
+          <td>Generate </td>
+          <td>Bangkitkan</td>
+      </tr>
+      <tr>
+          <td>266 </td>
+          <td>Get </td>
+          <td>Dapatkan</td>
+      </tr>
+      <tr>
+          <td>267 </td>
+          <td>Gigabyte </td>
+          <td>Gigabita</td>
+      </tr>
+      <tr>
+          <td>268 </td>
+          <td>Go To </td>
+          <td>Menuju</td>
+      </tr>
+      <tr>
+          <td>269 </td>
+          <td>Gridlines </td>
+          <td>Garis Kisi</td>
+      </tr>
+      <tr>
+          <td>270 </td>
+          <td>Hack </td>
+          <td>Retas</td>
+      </tr>
+      <tr>
+          <td>271 </td>
+          <td>Hacker </td>
+          <td>Peretas</td>
+      </tr>
+      <tr>
+          <td>272 </td>
+          <td>Hang </td>
+          <td>Macet</td>
+      </tr>
+      <tr>
+          <td>273 </td>
+          <td>Hanging Indent </td>
+          <td>Inden Macet</td>
+      </tr>
+      <tr>
+          <td>274 </td>
+          <td>Hard Disk </td>
+          <td>Cakram Keras</td>
+      </tr>
+      <tr>
+          <td>275 </td>
+          <td>Hardware </td>
+          <td>Perangkat Keras</td>
+      </tr>
+      <tr>
+          <td>276 </td>
+          <td>Header </td>
+          <td>Tajuk</td>
+      </tr>
+      <tr>
+          <td>277 </td>
+          <td>Heading </td>
+          <td>Penajukan</td>
+      </tr>
+      <tr>
+          <td>278 </td>
+          <td>Help </td>
+          <td>Bantuan</td>
+      </tr>
+      <tr>
+          <td>279 </td>
+          <td>Heuristic Search </td>
+          <td>Telusur Heuristik</td>
+      </tr>
+      <tr>
+          <td>280 </td>
+          <td>Hide </td>
+          <td>Tersembunyi</td>
+      </tr>
+      <tr>
+          <td>281 </td>
+          <td>Highlight </td>
+          <td>Sorot</td>
+      </tr>
+      <tr>
+          <td>282 </td>
+          <td>History </td>
+          <td>Sejarah</td>
+      </tr>
+      <tr>
+          <td>283 </td>
+          <td>Home </td>
+          <td>Pangkal</td>
+      </tr>
+      <tr>
+          <td>284 </td>
+          <td>Home Base </td>
+          <td>Basis Pangkal</td>
+      </tr>
+      <tr>
+          <td>285 </td>
+          <td>Horizontal </td>
+          <td>Horizontal</td>
+      </tr>
+      <tr>
+          <td>286 </td>
+          <td>Hub </td>
+          <td>Hub</td>
+      </tr>
+      <tr>
+          <td>287 </td>
+          <td>Hyperlink </td>
+          <td>Hipertaut</td>
+      </tr>
+      <tr>
+          <td>288 </td>
+          <td>Identity (Id) </td>
+          <td>Identitas (Id); Tanda Kenal</td>
+      </tr>
+      <tr>
+          <td>289 </td>
+          <td>If-Then Rule </td>
+          <td>Kaidah Jika-Maka</td>
+      </tr>
+      <tr>
+          <td>290 </td>
+          <td>If-Then Statement </td>
+          <td>Pernyataan Jika-Maka</td>
+      </tr>
+      <tr>
+          <td>291 </td>
+          <td>Image Interpretation </td>
+          <td>Inteprestasi Citra</td>
+      </tr>
+      <tr>
+          <td>292 </td>
+          <td>Image Understanding </td>
+          <td>Pemahaman Citra</td>
+      </tr>
+      <tr>
+          <td>293 </td>
+          <td>Image Recognition </td>
+          <td>Rekognisi Citra</td>
+      </tr>
+      <tr>
+          <td>294 </td>
+          <td>Import </td>
+          <td>Masuk; Impor</td>
+      </tr>
+      <tr>
+          <td>295 </td>
+          <td>In-Basket </td>
+          <td>Masuk Keranjang</td>
+      </tr>
+      <tr>
+          <td>296 </td>
+          <td>Inbox </td>
+          <td>Kotak Masuk</td>
+      </tr>
+      <tr>
+          <td>297 </td>
+          <td>Indent </td>
+          <td>Inden</td>
+      </tr>
+      <tr>
+          <td>298 </td>
+          <td>Index </td>
+          <td>Indeks</td>
+      </tr>
+      <tr>
+          <td>299 </td>
+          <td>Inference Engine </td>
+          <td>Mesin Inferensi</td>
+      </tr>
+      <tr>
+          <td>300 </td>
+          <td>Informatics </td>
+          <td>Informatika</td>
+      </tr>
+      <tr>
+          <td>301 </td>
+          <td>Information </td>
+          <td>Informasi</td>
+      </tr>
+      <tr>
+          <td>302 </td>
+          <td>Information Object </td>
+          <td>Objek Informasi</td>
+      </tr>
+      <tr>
+          <td>303 </td>
+          <td>Information System </td>
+          <td>Sistem Informasi</td>
+      </tr>
+      <tr>
+          <td>304 </td>
+          <td>Information Technology (It) </td>
+          <td>Teknologi Informasi (Ti)</td>
+      </tr>
+      <tr>
+          <td>305 </td>
+          <td>Input </td>
+          <td>Masukan</td>
+      </tr>
+      <tr>
+          <td>306 </td>
+          <td>Input Data </td>
+          <td>Data Masukan</td>
+      </tr>
+      <tr>
+          <td>307 </td>
+          <td>Input/Output (I/O) </td>
+          <td>Masukan/Keluaran (M/K)</td>
+      </tr>
+      <tr>
+          <td>308 </td>
+          <td>Insert </td>
+          <td>Sisip, Sisipan</td>
+      </tr>
+      <tr>
+          <td>309 </td>
+          <td>Install </td>
+          <td>Instal</td>
+      </tr>
+      <tr>
+          <td>310 </td>
+          <td>Instruction </td>
+          <td>Pembelajaran, Instruksi</td>
+      </tr>
+      <tr>
+          <td>311 </td>
+          <td>Integrated Software </td>
+          <td>Perangkat Keras Terpadu</td>
+      </tr>
+      <tr>
+          <td>312 </td>
+          <td>Interactive Videography </td>
+          <td>Videografi Interaktif</td>
+      </tr>
+      <tr>
+          <td>313 </td>
+          <td>Interface </td>
+          <td>Antarmuka</td>
+      </tr>
+      <tr>
+          <td>314 </td>
+          <td>Intranet </td>
+          <td>Intranet</td>
+      </tr>
+      <tr>
+          <td>315 </td>
+          <td>Ip (Identification Personal) </td>
+          <td>Alamat Pi (Personal Address Identifikasi)</td>
+      </tr>
+      <tr>
+          <td>316 </td>
+          <td>Italic </td>
+          <td>Italik; Miring</td>
+      </tr>
+      <tr>
+          <td>317 </td>
+          <td>Joining </td>
+          <td>Penggabungan</td>
+      </tr>
+      <tr>
+          <td>318 </td>
+          <td>Key </td>
+          <td>Kunci; Tombol</td>
+      </tr>
+      <tr>
+          <td>319 </td>
+          <td>Key Field </td>
+          <td>Medan Kunci; Medan Tombol</td>
+      </tr>
+      <tr>
+          <td>320 </td>
+          <td>Key Lock </td>
+          <td>Terkunci</td>
+      </tr>
+      <tr>
+          <td>321 </td>
+          <td>Keyboard </td>
+          <td>Papan Ketik; Papan Tombol</td>
+      </tr>
+      <tr>
+          <td>322 </td>
+          <td>Keyboard Entry </td>
+          <td>Entri Papan Ketik; Entri Papan Tombol</td>
+      </tr>
+      <tr>
+          <td>323 </td>
+          <td>Keyboard Printer </td>
+          <td>Pencetak Papan Ketik</td>
+      </tr>
+      <tr>
+          <td>324 </td>
+          <td>Keypad </td>
+          <td>Bantalan Kunci</td>
+      </tr>
+      <tr>
+          <td>325 </td>
+          <td>Keyword </td>
+          <td>Kata Kunci; Kata Sandi</td>
+      </tr>
+      <tr>
+          <td>326 </td>
+          <td>Kilobyte </td>
+          <td>Kilobita</td>
+      </tr>
+      <tr>
+          <td>327 </td>
+          <td>Knowledge Acquisition </td>
+          <td>Persyaratan Pengetahuan</td>
+      </tr>
+      <tr>
+          <td>328 </td>
+          <td>Knowledge Base </td>
+          <td>Basis Pengetahuan</td>
+      </tr>
+      <tr>
+          <td>329 </td>
+          <td>Knowledge Engineer </td>
+          <td>Insinyur Pengetahuan</td>
+      </tr>
+      <tr>
+          <td>330 </td>
+          <td>Knowledge Engineering </td>
+          <td>Rekayasa Pengetahuan</td>
+      </tr>
+      <tr>
+          <td>331 </td>
+          <td>Label </td>
+          <td>Label</td>
+      </tr>
+      <tr>
+          <td>332 </td>
+          <td>Landscape </td>
+          <td>Lanskap</td>
+      </tr>
+      <tr>
+          <td>333 </td>
+          <td>Launch </td>
+          <td>Luncur</td>
+      </tr>
+      <tr>
+          <td>334 </td>
+          <td>Launching </td>
+          <td>Peluncuran</td>
+      </tr>
+      <tr>
+          <td>335 </td>
+          <td>Leased Line </td>
+          <td>Jalur Sewaan</td>
+      </tr>
+      <tr>
+          <td>336 </td>
+          <td>Left </td>
+          <td>Kiri</td>
+      </tr>
+      <tr>
+          <td>337 </td>
+          <td>Legal Pleadings </td>
+          <td>Pembelaan Legal</td>
+      </tr>
+      <tr>
+          <td>338 </td>
+          <td>Letters And Fax </td>
+          <td>Surat Dan Faks</td>
+      </tr>
+      <tr>
+          <td>339 </td>
+          <td>Line </td>
+          <td>Garis; Jalur</td>
+      </tr>
+      <tr>
+          <td>340 </td>
+          <td>Links </td>
+          <td>Taut</td>
+      </tr>
+      <tr>
+          <td>341 </td>
+          <td>List </td>
+          <td>Senarai</td>
+      </tr>
+      <tr>
+          <td>342 </td>
+          <td>Load </td>
+          <td>Muat</td>
+      </tr>
+      <tr>
+          <td>343 </td>
+          <td>Lock </td>
+          <td>Kancing</td>
+      </tr>
+      <tr>
+          <td>344 </td>
+          <td>Log In </td>
+          <td>Log Masuk</td>
+      </tr>
+      <tr>
+          <td>345 </td>
+          <td>Log Off </td>
+          <td>Log Keluar</td>
+      </tr>
+      <tr>
+          <td>346 </td>
+          <td>Log On </td>
+          <td>Log Masuk</td>
+      </tr>
+      <tr>
+          <td>347 </td>
+          <td>Log Out </td>
+          <td>Log Keluar</td>
+      </tr>
+      <tr>
+          <td>348 </td>
+          <td>Lower Case </td>
+          <td>Sosok (Huruf) Bawah</td>
+      </tr>
+      <tr>
+          <td>349 </td>
+          <td>Macro </td>
+          <td>Makro</td>
+      </tr>
+      <tr>
+          <td>350 </td>
+          <td>Macro Instructions </td>
+          <td>Instruksi Makro</td>
+      </tr>
+      <tr>
+          <td>351 </td>
+          <td>Macroprocessor </td>
+          <td>Makroprosesor; Pemroses Makro</td>
+      </tr>
+      <tr>
+          <td>352 </td>
+          <td>Magnetic Disc Storage </td>
+          <td>Penyimpan Disket Magnetik</td>
+      </tr>
+      <tr>
+          <td>353 </td>
+          <td>Mail </td>
+          <td>Surat</td>
+      </tr>
+      <tr>
+          <td>354 </td>
+          <td>Mail Broadcaster </td>
+          <td>Penyiar Surat</td>
+      </tr>
+      <tr>
+          <td>355 </td>
+          <td>Mailbox </td>
+          <td>Kotak Surat</td>
+      </tr>
+      <tr>
+          <td>356 </td>
+          <td>Mainframe </td>
+          <td>Bingkai Induk; Kerangka Induk</td>
+      </tr>
+      <tr>
+          <td>357 </td>
+          <td>Management Domain </td>
+          <td>Ranah Manajemen</td>
+      </tr>
+      <tr>
+          <td>358 </td>
+          <td>Map Network Drive </td>
+          <td>Pemacu Jaringan Peta</td>
+      </tr>
+      <tr>
+          <td>359 </td>
+          <td>Master Data </td>
+          <td>Data Utama; Data Induk</td>
+      </tr>
+      <tr>
+          <td>360 </td>
+          <td>Master File </td>
+          <td>Berkas Induk</td>
+      </tr>
+      <tr>
+          <td>361 </td>
+          <td>Means-End Analysis </td>
+          <td>Analisis Rerata-Akhir</td>
+      </tr>
+      <tr>
+          <td>362 </td>
+          <td>Media Player </td>
+          <td>Penggelar Media</td>
+      </tr>
+      <tr>
+          <td>363 </td>
+          <td>Megabyte </td>
+          <td>Megabita</td>
+      </tr>
+      <tr>
+          <td>364 </td>
+          <td>Memo </td>
+          <td>Memo</td>
+      </tr>
+      <tr>
+          <td>365 </td>
+          <td>Memory </td>
+          <td>Memori</td>
+      </tr>
+      <tr>
+          <td>366 </td>
+          <td>Memory Cache </td>
+          <td>Memori Tembolok</td>
+      </tr>
+      <tr>
+          <td>367 </td>
+          <td>Memory Capacity </td>
+          <td>Kapasitas Memori</td>
+      </tr>
+      <tr>
+          <td>368 </td>
+          <td>Menu </td>
+          <td>Menu</td>
+      </tr>
+      <tr>
+          <td>369 </td>
+          <td>Merge </td>
+          <td>Gabung</td>
+      </tr>
+      <tr>
+          <td>370 </td>
+          <td>Message </td>
+          <td>Pesan</td>
+      </tr>
+      <tr>
+          <td>371 </td>
+          <td>Message Handling </td>
+          <td>Penanganan Pesan</td>
+      </tr>
+      <tr>
+          <td>372 </td>
+          <td>Message Retrieval </td>
+          <td>Temu Kembali Pesan</td>
+      </tr>
+      <tr>
+          <td>373 </td>
+          <td>Message Storage </td>
+          <td>Penyimpanan Pesan</td>
+      </tr>
+      <tr>
+          <td>374 </td>
+          <td>Message Transfer </td>
+          <td>Transfer Pesan</td>
+      </tr>
+      <tr>
+          <td>375 </td>
+          <td>Message Transfer Agent </td>
+          <td>Agen Transfer Pesan</td>
+      </tr>
+      <tr>
+          <td>376 </td>
+          <td>Microcomputer </td>
+          <td>Mikrokomputer; Komputer Mikro</td>
+      </tr>
+      <tr>
+          <td>377 </td>
+          <td>Microprocessor </td>
+          <td>Mikroprosesor; Prosesor Mikro</td>
+      </tr>
+      <tr>
+          <td>378 </td>
+          <td>Minicomputer </td>
+          <td>Minikomputer</td>
+      </tr>
+      <tr>
+          <td>379 </td>
+          <td>Missing </td>
+          <td>Penghilangan</td>
+      </tr>
+      <tr>
+          <td>380 </td>
+          <td>Modem </td>
+          <td>Modem</td>
+      </tr>
+      <tr>
+          <td>381 </td>
+          <td>Moderated Conference </td>
+          <td>Konferensi Terpadu</td>
+      </tr>
+      <tr>
+          <td>382 </td>
+          <td>Monitor </td>
+          <td>Monitor</td>
+      </tr>
+      <tr>
+          <td>383 </td>
+          <td>Monitor Display </td>
+          <td>Tampilan Monitor</td>
+      </tr>
+      <tr>
+          <td>384 </td>
+          <td>Motherboard </td>
+          <td>Papan Induk</td>
+      </tr>
+      <tr>
+          <td>385 </td>
+          <td>Mouse </td>
+          <td>Tetikus</td>
+      </tr>
+      <tr>
+          <td>386 </td>
+          <td>Movie </td>
+          <td>Film</td>
+      </tr>
+      <tr>
+          <td>387 </td>
+          <td>Multi-Tasking </td>
+          <td>Penugasan Ganda</td>
+      </tr>
+      <tr>
+          <td>388 </td>
+          <td>Multimedia </td>
+          <td>Multimedia</td>
+      </tr>
+      <tr>
+          <td>389 </td>
+          <td>Multiple Of Firing </td>
+          <td>Ganda Penyalaan</td>
+      </tr>
+      <tr>
+          <td>390 </td>
+          <td>Name Resolution </td>
+          <td>Resolusi Nama</td>
+      </tr>
+      <tr>
+          <td>391 </td>
+          <td>Naming Authority </td>
+          <td>Otoritas Penamaan</td>
+      </tr>
+      <tr>
+          <td>392 </td>
+          <td>Natural Language </td>
+          <td>Bahasa Alami</td>
+      </tr>
+      <tr>
+          <td>393 </td>
+          <td>Network </td>
+          <td>Jaringan</td>
+      </tr>
+      <tr>
+          <td>394 </td>
+          <td>Networking </td>
+          <td>Jejaring</td>
+      </tr>
+      <tr>
+          <td>395 </td>
+          <td>New Mail </td>
+          <td>Surat Baru</td>
+      </tr>
+      <tr>
+          <td>396 </td>
+          <td>Nondelivery </td>
+          <td>Takterkirim</td>
+      </tr>
+      <tr>
+          <td>397 </td>
+          <td>Numbering </td>
+          <td>Penomoran</td>
+      </tr>
+      <tr>
+          <td>398 </td>
+          <td>Numlock </td>
+          <td>Kancing Angka</td>
+      </tr>
+      <tr>
+          <td>399 </td>
+          <td>O/R Address </td>
+          <td>Alamat O/R</td>
+      </tr>
+      <tr>
+          <td>400 </td>
+          <td>Object </td>
+          <td>Objek</td>
+      </tr>
+
+    <tr>
+        <td>401 </td>
+        <td>Off </td>
+        <td>Padam</td>
+    </tr>
+    <tr>
+        <td>402 </td>
+        <td>Office Automation </td>
+        <td>Otomasi Kantor</td>
+    </tr>
+    <tr>
+        <td>403 </td>
+        <td>Offline </td>
+        <td>Terputus</td>
+    </tr>
+    <tr>
+        <td>404 </td>
+        <td>Ok </td>
+        <td>Oke</td>
+    </tr>
+    <tr>
+        <td>405 </td>
+        <td>On </td>
+        <td>Hidup, On</td>
+    </tr>
+    <tr>
+        <td>406 </td>
+        <td>On Line </td>
+        <td>Terhubung; Tersambung</td>
+    </tr>
+    <tr>
+        <td>407 </td>
+        <td>Open </td>
+        <td>Buka</td>
+    </tr>
+    <tr>
+        <td>408 </td>
+        <td>Operating System (Os) </td>
+        <td>Sistem Operasi (So)</td>
+    </tr>
+    <tr>
+        <td>409 </td>
+        <td>Operator </td>
+        <td>Operator</td>
+    </tr>
+    <tr>
+        <td>410 </td>
+        <td>Optical Disk </td>
+        <td>Disket Optik</td>
+    </tr>
+    <tr>
+        <td>411 </td>
+        <td>Option </td>
+        <td>Opsi; Pilihan</td>
+    </tr>
+    <tr>
+        <td>412 </td>
+        <td>Originator </td>
+        <td>Originator</td>
+    </tr>
+    <tr>
+        <td>413 </td>
+        <td>Originator/Recipient </td>
+        <td>Originator/Penerima</td>
+    </tr>
+    <tr>
+        <td>414 </td>
+        <td>Other Documents </td>
+        <td>Dokumen Lain</td>
+    </tr>
+    <tr>
+        <td>415 </td>
+        <td>Out-Basket </td>
+        <td>Keranjang Luar</td>
+    </tr>
+    <tr>
+        <td>416 </td>
+        <td>Outline </td>
+        <td>Kerangka, Ragangan</td>
+    </tr>
+    <tr>
+        <td>417 </td>
+        <td>Output </td>
+        <td>Keluaran</td>
+    </tr>
+    <tr>
+        <td>418 </td>
+        <td>Pack And Go </td>
+        <td>Kemas Dan Jalankan</td>
+    </tr>
+    <tr>
+        <td>419 </td>
+        <td>Page Default </td>
+        <td>Standar Halaman</td>
+    </tr>
+    <tr>
+        <td>420 </td>
+        <td>Page Down (Pgdn) </td>
+        <td>Turun Halaman</td>
+    </tr>
+    <tr>
+        <td>421 </td>
+        <td>Page Number </td>
+        <td>Nomor Halaman</td>
+    </tr>
+    <tr>
+        <td>422 </td>
+        <td>Page Preview </td>
+        <td>Pratilik Halaman</td>
+    </tr>
+    <tr>
+        <td>423 </td>
+        <td>Page Set Up </td>
+        <td>Tata Halaman</td>
+    </tr>
+    <tr>
+        <td>424 </td>
+        <td>Page Up (Pgup) </td>
+        <td>Naik Halaman</td>
+    </tr>
+    <tr>
+        <td>425 </td>
+        <td>Page Width </td>
+        <td>Lebar Halaman</td>
+    </tr>
+    <tr>
+        <td>426 </td>
+        <td>Paragraph </td>
+        <td>Paragraf</td>
+    </tr>
+    <tr>
+        <td>427 </td>
+        <td>Password </td>
+        <td>Sandi Lewat</td>
+    </tr>
+    <tr>
+        <td>428 </td>
+        <td>Paste </td>
+        <td>Pasta, Rekat</td>
+    </tr>
+    <tr>
+        <td>429 </td>
+        <td>Paste Special </td>
+        <td>Spesial Pasta</td>
+    </tr>
+    <tr>
+        <td>430 </td>
+        <td>Pause </td>
+        <td>Jeda</td>
+    </tr>
+    <tr>
+        <td>431 </td>
+        <td>Percent Style </td>
+        <td>Gaya Persentase</td>
+    </tr>
+    <tr>
+        <td>432 </td>
+        <td>Physical Delivery </td>
+        <td>Pengiriman Fisik</td>
+    </tr>
+    <tr>
+        <td>433 </td>
+        <td>Physical Delivery Access </td>
+        <td>Akses Pengiriman Fisik</td>
+    </tr>
+    <tr>
+        <td>434 </td>
+        <td>Picture </td>
+        <td>Gambar</td>
+    </tr>
+    <tr>
+        <td>435 </td>
+        <td>Pixel </td>
+        <td>Piksel</td>
+    </tr>
+    <tr>
+        <td>436 </td>
+        <td>Port </td>
+        <td>Pangkalan</td>
+    </tr>
+    <tr>
+        <td>437 </td>
+        <td>Portrait </td>
+        <td>Potret</td>
+    </tr>
+    <tr>
+        <td>438 </td>
+        <td>Power </td>
+        <td>Daya</td>
+    </tr>
+    <tr>
+        <td>439 </td>
+        <td>Preview </td>
+        <td>Pratilik</td>
+    </tr>
+    <tr>
+        <td>440 </td>
+        <td>Preview Not Available </td>
+        <td>Pratilik Taktersedia</td>
+    </tr>
+    <tr>
+        <td>441 </td>
+        <td>Primary Storage </td>
+        <td>Penyimpan Utama</td>
+    </tr>
+    <tr>
+        <td>442 </td>
+        <td>Print </td>
+        <td>Cetak</td>
+    </tr>
+    <tr>
+        <td>443 </td>
+        <td>Print Area </td>
+        <td>Wilayah Cetak</td>
+    </tr>
+    <tr>
+        <td>444 </td>
+        <td>Print Out </td>
+        <td>Cetakan</td>
+    </tr>
+    <tr>
+        <td>445 </td>
+        <td>Print Preview </td>
+        <td>Pratilik Cetak</td>
+    </tr>
+    <tr>
+        <td>446 </td>
+        <td>Print Screen </td>
+        <td>Cetak Layar</td>
+    </tr>
+    <tr>
+        <td>447 </td>
+        <td>Printer </td>
+        <td>Pencetak</td>
+    </tr>
+    <tr>
+        <td>448 </td>
+        <td>Private Domain Name </td>
+        <td>Nama Ranah Pribadi</td>
+    </tr>
+    <tr>
+        <td>449 </td>
+        <td>Private Management </td>
+        <td>Manajemen Pribadi</td>
+    </tr>
+    <tr>
+        <td>450 </td>
+        <td>Probe </td>
+        <td>Kuar</td>
+    </tr>
+    <tr>
+        <td>451 </td>
+        <td>Process </td>
+        <td>Proses</td>
+    </tr>
+    <tr>
+        <td>452 </td>
+        <td>Processor </td>
+        <td>Pemroses; Prosesor</td>
+    </tr>
+    <tr>
+        <td>453 </td>
+        <td>Program </td>
+        <td>Program</td>
+    </tr>
+    <tr>
+        <td>454 </td>
+        <td>Programmer </td>
+        <td>Pemrogram, Programer</td>
+    </tr>
+    <tr>
+        <td>455 </td>
+        <td>Programmer Analyst </td>
+        <td>Analis Pemrogram; Analis Programer</td>
+    </tr>
+    <tr>
+        <td>456 </td>
+        <td>Programming </td>
+        <td>Pemrograman</td>
+    </tr>
+    <tr>
+        <td>457 </td>
+        <td>Programming Language </td>
+        <td>Bahasa Pemrograman</td>
+    </tr>
+    <tr>
+        <td>458 </td>
+        <td>Prompt </td>
+        <td>Siap Ketik</td>
+    </tr>
+    <tr>
+        <td>459 </td>
+        <td>Proof Of Delivery Service </td>
+        <td>Kedap Layanan Pengiriman</td>
+    </tr>
+    <tr>
+        <td>460 </td>
+        <td>Properties </td>
+        <td>Properti</td>
+    </tr>
+    <tr>
+        <td>461 </td>
+        <td>Protect </td>
+        <td>Proteksi; Perlindungan</td>
+    </tr>
+    <tr>
+        <td>462 </td>
+        <td>Protocol </td>
+        <td>Protokol</td>
+    </tr>
+    <tr>
+        <td>463 </td>
+        <td>Publications </td>
+        <td>Publikasi</td>
+    </tr>
+    <tr>
+        <td>464 </td>
+        <td>Query </td>
+        <td>Permintaan, Kueri</td>
+    </tr>
+    <tr>
+        <td>465 </td>
+        <td>Quit </td>
+        <td>Keluar</td>
+    </tr>
+    <tr>
+        <td>466 </td>
+        <td>Random Access </td>
+        <td>Akses Acak</td>
+    </tr>
+    <tr>
+        <td>467 </td>
+        <td>Random Access Memory (Ram) </td>
+        <td>Memori Akses Acak</td>
+    </tr>
+    <tr>
+        <td>468 </td>
+        <td>Read Only Memory (Rom) </td>
+        <td>Memori Baca-Saja</td>
+    </tr>
+    <tr>
+        <td>469 </td>
+        <td>Reader </td>
+        <td>Pembaca</td>
+    </tr>
+    <tr>
+        <td>470 </td>
+        <td>Ready </td>
+        <td>Siap</td>
+    </tr>
+    <tr>
+        <td>471 </td>
+        <td>Receipt </td>
+        <td>Menerima</td>
+    </tr>
+    <tr>
+        <td>472 </td>
+        <td>Received </td>
+        <td>Diterima</td>
+    </tr>
+    <tr>
+        <td>473 </td>
+        <td>Recipient </td>
+        <td>Penerima</td>
+    </tr>
+    <tr>
+        <td>474 </td>
+        <td>Record </td>
+        <td>Utas; Rekam</td>
+    </tr>
+    <tr>
+        <td>475 </td>
+        <td>Redo </td>
+        <td>Jadi Lagi</td>
+    </tr>
+    <tr>
+        <td>476 </td>
+        <td>Redundancy </td>
+        <td>Kelewahan; Redundansi</td>
+    </tr>
+    <tr>
+        <td>477 </td>
+        <td>Refresh </td>
+        <td>Segar</td>
+    </tr>
+    <tr>
+        <td>478 </td>
+        <td>Release </td>
+        <td>Luncuran; Terbitan</td>
+    </tr>
+    <tr>
+        <td>479 </td>
+        <td>Remove </td>
+        <td>Hapus</td>
+    </tr>
+    <tr>
+        <td>480 </td>
+        <td>Rename </td>
+        <td>Ganti Judul, Nama Ulang</td>
+    </tr>
+    <tr>
+        <td>481 </td>
+        <td>Repeat </td>
+        <td>Ulang</td>
+    </tr>
+    <tr>
+        <td>482 </td>
+        <td>Replace </td>
+        <td>Ganti</td>
+    </tr>
+    <tr>
+        <td>483 </td>
+        <td>Replication </td>
+        <td>Replikasi</td>
+    </tr>
+    <tr>
+        <td>484 </td>
+        <td>Reply </td>
+        <td>Jawab</td>
+    </tr>
+    <tr>
+        <td>485 </td>
+        <td>Reply All </td>
+        <td>Jawab Semua</td>
+    </tr>
+    <tr>
+        <td>486 </td>
+        <td>Reports </td>
+        <td>Laporan</td>
+    </tr>
+    <tr>
+        <td>487 </td>
+        <td>Reset </td>
+        <td>Tata Ulang</td>
+    </tr>
+    <tr>
+        <td>488 </td>
+        <td>Resource </td>
+        <td>Sumber Daya</td>
+    </tr>
+    <tr>
+        <td>489 </td>
+        <td>Restart </td>
+        <td>Start Ulang</td>
+    </tr>
+    <tr>
+        <td>490 </td>
+        <td>Restore </td>
+        <td>Simpan Ulang</td>
+    </tr>
+    <tr>
+        <td>491 </td>
+        <td>Resume </td>
+        <td>Teruskan Lagi</td>
+    </tr>
+    <tr>
+        <td>492 </td>
+        <td>Retrieval </td>
+        <td>Temu Kembali</td>
+    </tr>
+    <tr>
+        <td>493 </td>
+        <td>Retry </td>
+        <td>Coba Lagi</td>
+    </tr>
+    <tr>
+        <td>494 </td>
+        <td>Return </td>
+        <td>Kembali</td>
+    </tr>
+    <tr>
+        <td>495 </td>
+        <td>Rewrite </td>
+        <td>Tulis Ulang</td>
+    </tr>
+    <tr>
+        <td>496 </td>
+        <td>Right </td>
+        <td>Kanan</td>
+    </tr>
+    <tr>
+        <td>497 </td>
+        <td>Row </td>
+        <td>Baris</td>
+    </tr>
+    <tr>
+        <td>498 </td>
+        <td>Ruler </td>
+        <td>Mistar</td>
+    </tr>
+    <tr>
+        <td>499 </td>
+        <td>Run </td>
+        <td>Jalankan</td>
+    </tr>
+    <tr>
+        <td>500 </td>
+        <td>Save </td>
+        <td>Simpan</td>
+    </tr>
+    <tr>
+        <td>501 </td>
+        <td>Save As </td>
+        <td>Simpan Sebagai</td>
+    </tr>
+    <tr>
+        <td>502 </td>
+        <td>Save As Html (Hyper Markup </td>
+        <td>Simpan Sebagai Bahasa Markah Language) Hiper Teks (Bmht)</td>
+    </tr>
+    <tr>
+        <td>503 </td>
+        <td>Scan </td>
+        <td>Pindai</td>
+    </tr>
+    <tr>
+        <td>504 </td>
+        <td>Scanner </td>
+        <td>Pemindai</td>
+    </tr>
+    <tr>
+        <td>505 </td>
+        <td>Screen </td>
+        <td>Layar</td>
+    </tr>
+    <tr>
+        <td>506 </td>
+        <td>Scroll </td>
+        <td>Menggulung</td>
+    </tr>
+    <tr>
+        <td>507 </td>
+        <td>Scroll Lock </td>
+        <td>Kunci Gulung</td>
+    </tr>
+    <tr>
+        <td>508 </td>
+        <td>Search </td>
+        <td>Telusur</td>
+    </tr>
+    <tr>
+        <td>509 </td>
+        <td>Secondary Recipient </td>
+        <td>Penerima Sekunder</td>
+    </tr>
+    <tr>
+        <td>510 </td>
+        <td>Sector </td>
+        <td>Sektor</td>
+    </tr>
+    <tr>
+        <td>511 </td>
+        <td>Secure Access </td>
+        <td>Akses Aman</td>
+    </tr>
+    <tr>
+        <td>512 </td>
+        <td>Security </td>
+        <td>Keamanan</td>
+    </tr>
+    <tr>
+        <td>513 </td>
+        <td>Segment </td>
+        <td>Segmen</td>
+    </tr>
+    <tr>
+        <td>514 </td>
+        <td>Select </td>
+        <td>Pilih</td>
+    </tr>
+    <tr>
+        <td>515 </td>
+        <td>Select All </td>
+        <td>Pilih Semua</td>
+    </tr>
+    <tr>
+        <td>516 </td>
+        <td>Send </td>
+        <td>Kirim</td>
+    </tr>
+    <tr>
+        <td>517 </td>
+        <td>Send To </td>
+        <td>Kirim Kepada</td>
+    </tr>
+    <tr>
+        <td>518 </td>
+        <td>Sent Item </td>
+        <td>Surat/Butir Terkirim</td>
+    </tr>
+    <tr>
+        <td>519 </td>
+        <td>Series </td>
+        <td>Seri</td>
+    </tr>
+    <tr>
+        <td>520 </td>
+        <td>Server </td>
+        <td>Peladen; Server</td>
+    </tr>
+    <tr>
+        <td>521 </td>
+        <td>Set Up Show </td>
+        <td>Tata Tampilan</td>
+    </tr>
+    <tr>
+        <td>522 </td>
+        <td>Setting </td>
+        <td>Penataan</td>
+    </tr>
+    <tr>
+        <td>523 </td>
+        <td>Setup </td>
+        <td>Tata</td>
+    </tr>
+    <tr>
+        <td>524 </td>
+        <td>Shading </td>
+        <td>Pembayangan</td>
+    </tr>
+    <tr>
+        <td>525 </td>
+        <td>Share Workbook </td>
+        <td>Buku Kerja Bersama</td>
+    </tr>
+    <tr>
+        <td>526 </td>
+        <td>Shareable Directory </td>
+        <td>Direktori Terbagi</td>
+    </tr>
+    <tr>
+        <td>527 </td>
+        <td>Sheet </td>
+        <td>Lembar</td>
+    </tr>
+    <tr>
+        <td>528 </td>
+        <td>Shift </td>
+        <td>Alih</td>
+    </tr>
+    <tr>
+        <td>529 </td>
+        <td>Shut Down </td>
+        <td>Tutup Padam</td>
+    </tr>
+    <tr>
+        <td>530 </td>
+        <td>Signature </td>
+        <td>Tanda Tangan</td>
+    </tr>
+    <tr>
+        <td>531 </td>
+        <td>Slash </td>
+        <td>Garis Miring</td>
+    </tr>
+    <tr>
+        <td>532 </td>
+        <td>Sleep </td>
+        <td>Pudar</td>
+    </tr>
+    <tr>
+        <td>533 </td>
+        <td>Slide </td>
+        <td>Salindia</td>
+    </tr>
+    <tr>
+        <td>534 </td>
+        <td>Slide Colour Scheme </td>
+        <td>Skema Warna Salindia</td>
+    </tr>
+    <tr>
+        <td>535 </td>
+        <td>Slide From Files </td>
+        <td>Salindia Dari Berkas</td>
+    </tr>
+    <tr>
+        <td>536 </td>
+        <td>Slide From Outlines </td>
+        <td>Salindia Dari Ragangan</td>
+    </tr>
+    <tr>
+        <td>537 </td>
+        <td>Slide Layout </td>
+        <td>Tata Letak Salindia</td>
+    </tr>
+    <tr>
+        <td>538 </td>
+        <td>Slide Miniature </td>
+        <td>Miniatur Salindia</td>
+    </tr>
+    <tr>
+        <td>539 </td>
+        <td>Slide Number </td>
+        <td>Nomor Salindia</td>
+    </tr>
+    <tr>
+        <td>540 </td>
+        <td>Slide Show </td>
+        <td>Tampil Salindia</td>
+    </tr>
+    <tr>
+        <td>541 </td>
+        <td>Slide Sorter </td>
+        <td>Penyortir Salindia; Pemilah Salindia</td>
+    </tr>
+    <tr>
+        <td>542 </td>
+        <td>Slot </td>
+        <td>Slot</td>
+    </tr>
+    <tr>
+        <td>543 </td>
+        <td>Software </td>
+        <td>Perangkat Lunak</td>
+    </tr>
+    <tr>
+        <td>544 </td>
+        <td>Sort </td>
+        <td>Sortir; Pilah</td>
+    </tr>
+    <tr>
+        <td>545 </td>
+        <td>Sound </td>
+        <td>Suara</td>
+    </tr>
+    <tr>
+        <td>546 </td>
+        <td>Source </td>
+        <td>Sumber</td>
+    </tr>
+    <tr>
+        <td>547 </td>
+        <td>Space </td>
+        <td>Spasi</td>
+    </tr>
+    <tr>
+        <td>548 </td>
+        <td>Spacebar </td>
+        <td>Batang Spasi</td>
+    </tr>
+    <tr>
+        <td>549 </td>
+        <td>Speaker Noter </td>
+        <td>Pencatat Pembicara</td>
+    </tr>
+    <tr>
+        <td>550 </td>
+        <td>Spelling </td>
+        <td>Ejaan</td>
+    </tr>
+    <tr>
+        <td>551 </td>
+        <td>Split </td>
+        <td>Belah</td>
+    </tr>
+    <tr>
+        <td>552 </td>
+        <td>Splitting </td>
+        <td>Pembelahan</td>
+    </tr>
+    <tr>
+        <td>553 </td>
+        <td>Spread Sheet </td>
+        <td>Lembar Sebar</td>
+    </tr>
+    <tr>
+        <td>554 </td>
+        <td>Standby </td>
+        <td>Siaga</td>
+    </tr>
+    <tr>
+        <td>555 </td>
+        <td>Start </td>
+        <td>Mulai; Star</td>
+    </tr>
+    <tr>
+        <td>556 </td>
+        <td>Start Up </td>
+        <td>Hidupkan</td>
+    </tr>
+    <tr>
+        <td>557 </td>
+        <td>Status Bar </td>
+        <td>Batang Status</td>
+    </tr>
+    <tr>
+        <td>558 </td>
+        <td>Stop </td>
+        <td>Stop</td>
+    </tr>
+    <tr>
+        <td>559 </td>
+        <td>Stored Message Alert </td>
+        <td>Siaga Pesan Tersimpan</td>
+    </tr>
+    <tr>
+        <td>560 </td>
+        <td>Style </td>
+        <td>Gaya</td>
+    </tr>
+    <tr>
+        <td>561 </td>
+        <td>Style Checker </td>
+        <td>Pemeriksa Gaya</td>
+    </tr>
+    <tr>
+        <td>562 </td>
+        <td>Subdirectory </td>
+        <td>Subdirektori</td>
+    </tr>
+    <tr>
+        <td>563 </td>
+        <td>Subject </td>
+        <td>Subjek</td>
+    </tr>
+    <tr>
+        <td>564 </td>
+        <td>Submission </td>
+        <td>Submisi</td>
+    </tr>
+    <tr>
+        <td>565 </td>
+        <td>Subscriber </td>
+        <td>Penika Bawah</td>
+    </tr>
+    <tr>
+        <td>566 </td>
+        <td>Subscript </td>
+        <td>Tika Bawah</td>
+    </tr>
+    <tr>
+        <td>567 </td>
+        <td>Subtotals </td>
+        <td>Subtotal</td>
+    </tr>
+    <tr>
+        <td>568 </td>
+        <td>Superscript </td>
+        <td>Tika Atas</td>
+    </tr>
+    <tr>
+        <td>569 </td>
+        <td>Symbol </td>
+        <td>Simbol</td>
+    </tr>
+    <tr>
+        <td>570 </td>
+        <td>Synchronize </td>
+        <td>Menyelaraskan; Selaras</td>
+    </tr>
+    <tr>
+        <td>571 </td>
+        <td>Tab </td>
+        <td>Tab</td>
+    </tr>
+    <tr>
+        <td>572 </td>
+        <td>Table </td>
+        <td>Tabel</td>
+    </tr>
+    <tr>
+        <td>573 </td>
+        <td>Tape </td>
+        <td>Pita</td>
+    </tr>
+    <tr>
+        <td>574 </td>
+        <td>Taskbar </td>
+        <td>Batang Tugas</td>
+    </tr>
+    <tr>
+        <td>575 </td>
+        <td>Teleconferencing </td>
+        <td>Telekonferensi</td>
+    </tr>
+    <tr>
+        <td>576 </td>
+        <td>Telecopy </td>
+        <td>Telekopi</td>
+    </tr>
+    <tr>
+        <td>577 </td>
+        <td>Telefax </td>
+        <td>Telefaks</td>
+    </tr>
+    <tr>
+        <td>578 </td>
+        <td>Teletext </td>
+        <td>Teleteks</td>
+    </tr>
+    <tr>
+        <td>579 </td>
+        <td>Telex </td>
+        <td>Teleks</td>
+    </tr>
+    <tr>
+        <td>580 </td>
+        <td>Template </td>
+        <td>Templat</td>
+    </tr>
+    <tr>
+        <td>581 </td>
+        <td>Terminal </td>
+        <td>Terminal</td>
+    </tr>
+    <tr>
+        <td>582 </td>
+        <td>Text (Voice, Image, Video) </td>
+        <td>Teks (Suara, Citra, Video)</td>
+    </tr>
+    <tr>
+        <td>583 </td>
+        <td>Text Box </td>
+        <td>Kotak Teks</td>
+    </tr>
+    <tr>
+        <td>584 </td>
+        <td>Theme </td>
+        <td>Tema</td>
+    </tr>
+    <tr>
+        <td>585 </td>
+        <td>Thread </td>
+        <td>Ulir</td>
+    </tr>
+    <tr>
+        <td>586 </td>
+        <td>Throughput </td>
+        <td>Terobosan</td>
+    </tr>
+    <tr>
+        <td>587 </td>
+        <td>Tile </td>
+        <td>Ubinan</td>
+    </tr>
+    <tr>
+        <td>588 </td>
+        <td>Time </td>
+        <td>Waktu</td>
+    </tr>
+    <tr>
+        <td>589 </td>
+        <td>To Fax </td>
+        <td>Ke Faks</td>
+    </tr>
+    <tr>
+        <td>590 </td>
+        <td>Toolbars </td>
+        <td>Batang Alat; Batang Perkakas</td>
+    </tr>
+    <tr>
+        <td>591 </td>
+        <td>Tools </td>
+        <td>Alat; Perkakas</td>
+    </tr>
+    <tr>
+        <td>592 </td>
+        <td>Top-Level Domain Name </td>
+        <td>Nama Ranah Aras Puncak</td>
+    </tr>
+    <tr>
+        <td>593 </td>
+        <td>Trace </td>
+        <td>Runut</td>
+    </tr>
+    <tr>
+        <td>594 </td>
+        <td>Tracing Facility </td>
+        <td>Fasilitas Perunutan</td>
+    </tr>
+    <tr>
+        <td>595 </td>
+        <td>Track </td>
+        <td>Lintas, Jalur</td>
+    </tr>
+    <tr>
+        <td>596 </td>
+        <td>Transfer </td>
+        <td>Transfer</td>
+    </tr>
+    <tr>
+        <td>597 </td>
+        <td>Transmission </td>
+        <td>Transmisi</td>
+    </tr>
+    <tr>
+        <td>598 </td>
+        <td>Transmittal Event </td>
+        <td>Peristiwa Transmital</td>
+    </tr>
+    <tr>
+        <td>599 </td>
+        <td>Underline </td>
+        <td>Garis Bawah</td>
+    </tr>
+    <tr>
+        <td>600 </td>
+        <td>Undo </td>
+        <td>Tak Jadi</td>
+    </tr>
+    <tr>
+        <td>601 </td>
+        <td>Unhide </td>
+        <td>Tak Tersembunyi</td>
+    </tr>
+    <tr>
+        <td>602 </td>
+        <td>Up </td>
+        <td>Ungguh</td>
+    </tr>
+    <tr>
+        <td>603 </td>
+        <td>Up Level </td>
+        <td>Naik Aras</td>
+    </tr>
+    <tr>
+        <td>604 </td>
+        <td>Update </td>
+        <td>Mutakhir</td>
+    </tr>
+    <tr>
+        <td>605 </td>
+        <td>Upload </td>
+        <td>Unggah</td>
+    </tr>
+    <tr>
+        <td>606 </td>
+        <td>Upper Case </td>
+        <td>Sosok (Huruf) Atas</td>
+    </tr>
+    <tr>
+        <td>607 </td>
+        <td>User </td>
+        <td>Pengguna</td>
+    </tr>
+    <tr>
+        <td>608 </td>
+        <td>User Agent </td>
+        <td>Agen Pengguna</td>
+    </tr>
+    <tr>
+        <td>609 </td>
+        <td>User Friendly </td>
+        <td>Akrab Pengguna</td>
+    </tr>
+    <tr>
+        <td>610 </td>
+        <td>User Group </td>
+        <td>Kelompok Pengguna</td>
+    </tr>
+    <tr>
+        <td>611 </td>
+        <td>User Interface </td>
+        <td>Antarmuka Pengguna</td>
+    </tr>
+    <tr>
+        <td>612 </td>
+        <td>Utilities </td>
+        <td>Kegunaan</td>
+    </tr>
+    <tr>
+        <td>613 </td>
+        <td>Version </td>
+        <td>Versi</td>
+    </tr>
+    <tr>
+        <td>614 </td>
+        <td>Vertical </td>
+        <td>Vertikal</td>
+    </tr>
+    <tr>
+        <td>615 </td>
+        <td>Video Conferencing </td>
+        <td>Konferensi Video</td>
+    </tr>
+    <tr>
+        <td>616 </td>
+        <td>Videotext </td>
+        <td>Teks Video</td>
+    </tr>
+    <tr>
+        <td>617 </td>
+        <td>View </td>
+        <td>Tilik</td>
+    </tr>
+    <tr>
+        <td>618 </td>
+        <td>Viewdata </td>
+        <td>Data Tilik</td>
+    </tr>
+    <tr>
+        <td>619 </td>
+        <td>Viewing Screen </td>
+        <td>Layar Penilikan</td>
+    </tr>
+    <tr>
+        <td>620 </td>
+        <td>Voice Mail </td>
+        <td>Surat Suara</td>
+    </tr>
+    <tr>
+        <td>621 </td>
+        <td>Wake Up </td>
+        <td>Bangun</td>
+    </tr>
+    <tr>
+        <td>622 </td>
+        <td>Web Pages </td>
+        <td>Halaman Web</td>
+    </tr>
+    <tr>
+        <td>623 </td>
+        <td>Whole Page </td>
+        <td>Halaman Utuh</td>
+    </tr>
+    <tr>
+        <td>624 </td>
+        <td>Window </td>
+        <td>Jendela</td>
+    </tr>
+    <tr>
+        <td>625 </td>
+        <td>Wizard </td>
+        <td>Cekatan</td>
+    </tr>
+    <tr>
+        <td>626 </td>
+        <td>Word </td>
+        <td>Kata</td>
+    </tr>
+    <tr>
+        <td>627 </td>
+        <td>Work Load </td>
+        <td>Beban Kerja</td>
+    </tr>
+    <tr>
+        <td>628 </td>
+        <td>Work Station </td>
+        <td>Stasiun Kerja</td>
+    </tr>
+      </table>
     </div>
     <!-- hero section end -->
     <!-- footer -->
     <footer>
-      <div class="links">
-        <a href="2.html">2</a>
-        <a href="3.html">3</a>
-      </div>
       <div class="socials">
         <a href="https://www.instagram.com/raliief/"><i data-feather="instagram"></i></a>
         <a href="https://www.facebook.com/aliefga/"><i data-feather="facebook"></i></a>
